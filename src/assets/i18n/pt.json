@@ -1,0 +1,1215 @@
+{
+  "FS": {
+    "INSURANCE": {
+      "POLIZA": "Apólice em vigência",
+      "INMUEBLE": "Imóvel - Godoy cruz 123",
+      "ITEMS-PERSONALES": "Itens pessoais",
+      "DIRECCION1": "Patente: AE323ML",
+      "DIRECCION2": "Direção: San vicente 2313",
+      "DIRECCION3": "Valor segurado: desde $300.000",
+      "ULTIMOPAGO": "Último pagamento: 20/03/23"
+    },
+    "SERVICE": {
+      "TITLE": {
+        "TELÉFONO": "Telefone",
+        "GAS": "Gás",
+        "INTERNET": "Internet",
+        "AGUA": "Água",
+        "TELEVISIÓN": "Televisão",
+        "PRIME VIDEO": "Prime Video",
+        "TARJETAS": "Cartões"
+      },
+      "COMPANY": {
+        "MERCADO PAGO": "Mercado Pago",
+        "MASTERCARD": "Mastercard",
+        "VISA": "Visa",
+        "AGUAS RIOJANAS": "Águas Riojanas",
+        "AQUALEM": "Aqualem",
+        "CABLEVISION": "Cablevisão",
+        "CLARO": "Claro",
+        "PERSONAL": "Personal",
+        "MOVISTAR": "Movistar",
+        "ECOGAS": "Ecogas",
+        "ENERGAS": "Energas",
+        "STARLINK": "Starlink",
+        "FIBERTEL": "Fibertel"
+      }
+    },
+    "PAY-AMOUNT-LOAN": {
+      "AMOUNT-LOAN": "Valor do empréstimo",
+      "TAX": "Impostos",
+      "INTEREST": "Juros",
+      "DUES": "Parcelas",
+      "VALUE-DUES": "Valor da parcela"
+    },
+    "CARD-BUTTOM-SHEET": {
+      "PAYMENT-CARD": "Pay card",
+      "BLOCK-CARD": "Block card",
+      "REPLACEMENT-CARD": "Replace card",
+      "CARD-CONFIG": "Configuração do cartão"
+    },
+    "CARD-TYPE": {
+      "CARD-CREDIT": "Cartão de crédito",
+      "CARD-DEBIT": "Cartão de débito"
+    },
+    "MODAL-LIMIT": {
+      "LIMIT": "Limite anterior",
+      "UPDATE-LIMIT": "Atualização de limite",
+      "LIMIT-DAILY": "Novo limite diário",
+      "SELECT-LIMIT": "Selecionar novo limite de saque",
+      "CHANGE-LIMIT": "Modificar"
+    },
+    "LOAN-MODAL": {
+      "SUCCESS-LOAN": "Seu pedido de empréstimo foi bem-sucedido!",
+      "LOAN": "Pedido de empréstimo",
+      "LOAN-PAY": "Empréstimo para pagar",
+      "INTEREST-RATE": "Taxa de juros"
+    },
+    "DEBIT-AUTOMATIC": {
+      "DELETE": "Excluir débito anexado",
+      "DETACH": "Desanexar débito anexado",
+      "REACTIVATE": "Reativar débito anexado",
+      "QUESTION-DELETE": "Tem certeza de que deseja excluir a adesão do cartão ao débito anexado?",
+      "QUESTION-DETACH": "Tem certeza de que deseja desanexar o cartão do débito anexado?",
+      "QUESTION-REACTIVATE": "Tem certeza de que deseja reativar a adesão ao cartão?",
+      "CANCEL": "Cancelar",
+      "CONFIRM": "Confirmar"
+    },
+    "SUMMARY-CARD": {
+      "RESUME": "Resumo do seu cartão",
+      "DATE": "12 de março de 2023",
+      "NUMBER-ASSOCIATED": "Número associado",
+      "IMPRIMIR": "Imprimir",
+      "DOWNLOAD": "Baixar",
+      "CONCEPT": "Conceito",
+      "ADDRESS": "Endereço",
+      "CREDIT": "Resumo do cartão de crédito",
+      "NOTE": "Nota",
+      "NOTE-SUMMARY": "Este resumo do cartão de crédito é apenas um extrato. Consulte os Termos e Condições completos do seu cartão de crédito para obter informações detalhadas sobre taxas de juros, taxas, limites de crédito e outros detalhes importantes. Você pode revisar o contrato completo em nosso site ou entrar em contato com nosso serviço ao cliente. Ao continuar a usar este cartão, você aceita automaticamente os termos e condições estabelecidos pela entidade emissora."
+    },
+    "CREDIT-INFO": {
+      "PAYMENT-ADVANCED": "Método de Pagamento",
+      "PAYMENTMETHOD": "Método de Pagamento",
+      "OPTION-1": "Opção 1",
+      "OPTION-2": "Opção 2",
+      "OPTION-3": "Opção 3",
+      "DISABLED-CARD": "Desativar cartão",
+      "ACTIVATED-CARD": "Ativar cartão",
+      "AMOUNT": "Valor disponível em parcelas",
+      "AMOUNT-AVAILABLE": "Total disponível",
+      "PAYMENT": "Saldo",
+      "CURRENCY": "Moeda"
+    },
+    "CBU": {
+      "ALIAS": "Alias de CBU"
+    },
+    "CARDS-INFO": {
+      "PAYMENT": "Realizar Pagamento Antecipado de Cartão de Crédito",
+      "PAYMENT-SERVICE": "adiantamento",
+      "PAY": "Serviço",
+      "AUTOMATIC-DEBIT": "Verificar ou Adicionar Débito Automático",
+      "CARD-INFO": "Informações do cartão",
+      "CARD-NAME": "Nome do cartão",
+      "VALID-CARD": "Válido até",
+      "CARD-NUMBER": "Número do cartão",
+      "CARD-TITLE": "Nome do Titular do cartão",
+      "ADD-CARD": "Adicionar cartão para Débito Automático",
+      "LIMIT-CARD": "Modificar limite de saque",
+      "NOT-FOUND": "Nenhum resultado encontrado",
+      "CONTINUE": "Aceitar",
+      "LIMIT": "Limite de Retirada atual",
+      "LIMITE": "Limite de saque atualizado",
+      "LIMIT-TITLE": "Límite",
+      "TITLE": "Modificar limite de saque",
+      "AUTO-DEBIT": "Débito Aut.",
+      "NEW-PAY": "Fazer um novo pagamento de serviço",
+      "VIEW-SUMMARY": "Ver Resumos",
+      "REQUEST-NEW-CARD": "Solicitar novo cartão",
+      "SHOPPING-ABROAD": "Compras no Exterior"
+    },
+    "MODAL-SUCCESS-DEBIT": {
+      "ADD-DEBIT": "Adicionar serviço ou configurar débito automático",
+      "TITLE": "Débito Automático Ativado com Sucesso",
+      "DEBIT": "Débito Automático",
+      "ACCOUNT": "Conta de origem",
+      "AUTOMATIC-DEBIT": "Débito Automático para"
+    },
+    "MODAL-AUTO-DEBIT": {
+      "ENTERPRISE": "Empresa",
+      "SERVICE": "Serviço",
+      "LAST-NAME": "Nome Completo",
+      "CODE": "Código de Débito",
+      "AMOUNT": "Valor",
+      "EXIT": "Voltar",
+      "REQUEST": "Solicitar",
+      "CONTINUE": "Adicionar",
+      "PLACEHOLDER-NAME": "Digite seu nome completo",
+      "PLACEHOLDER-CODE": "Digite o código de débito",
+      "PLACEHOLDER-AMOUNT": "Digite o valor",
+      "TITLE": "Adicionar cartão ao débito automático",
+      "PLACEHOLDER-ENTERPRISE": "Digite o nome da empresa ou cuit",
+      "PLACEHOLDER-SERVICE": "Selecione o serviço ao qual deseja aderir"
+    },
+    "MODAL-SHOPPING-ABROAD": {
+      "TITLE": "Ativar cartão estrangeiro",
+      "COUNTRY": "País",
+      "DATE": "Data",
+      "COUNTRY-PLACEHOLDER": "Selecione o país que você vai visitar",
+      "DATE-PLACEHOLDER": "De / até"
+    },
+    "MODALS-CONTACT-BOOKS": {
+      "SUCCESS-TRANSFERS": "Realizar transferências",
+      "CONTACT-BOOK": "Procurar contato",
+      "TRANSFERS-LAST": "últimas transferências",
+      "CONTINUE": "Continuar",
+      "CLOSE": "Fechar",
+      "CBU": "Digite CBU ou alias",
+      "CBU-PLACEHOLDER": "12345678 / Juan.Perez",
+      "CUIT": "CUIT",
+      "NAME": "Nome completo",
+      "BANK": "Banco de destino",
+      "ACCOUNT-NUMBER": "Número da conta",
+      "REFERENCE": "Referência",
+      "REFERENCE-PLACEHOLDER": "Insira uma referência de contato",
+      "TRANSFERS": "Transferência",
+      "TRANSFERS-SUCCESFULL": "A transferência ",
+      "EXIT": "Voltar",
+      "SHOW-ERROR": "O valor da transferência é maior que o dinheiro disponível",
+      "AMOUT": "Dinheiro disponível",
+      "SELECTED-REASON": "Selecionar motivo",
+      "AMOUNT": "Valor",
+      "CBU-BANK": "CBU / Banco de Destino",
+      "PARA": "Para",
+      "DATE": "Data",
+      "REASON": "Motivo",
+      "ACCOUNT-ORIGIN": "Conta de origem",
+      "PAY-APPROVED": "Pagamento aprovado",
+      "COMPROBANTE": "Ver comprovante",
+      "SEARCH": "Digite aqui...",
+      "ACCEPT": "Aceitar"
+    },
+    "MODALS-CONTACT-TRANSFERS": {
+      "RECIPIENT": "Destinatário",
+      "WHERE-TRANSFER": "A quem você deseja transferir?",
+      "SUCCESS-TRANSFERS": "Realizar transferências",
+      "TRANSFERS-AMOUNT": "Digite o valor que deseja transferir",
+      "NEW-CONTACT": "Criar novo contato",
+      "CONTACT-BOOK": "Agenda de contatos"
+    },
+    "MODAL-NEW-CONTACT": {
+      "AVAILABLE-MONEY": "Dinheiro Disponível",
+      "RECIPIENT": "Destinatário",
+      "MAKE-TRANSFER": {
+        "BACK": "Voltar",
+        "CONTINUE": "Continuar",
+        "ERRORS": {
+          "TRANSFER-AMOUNT-EXCEEDS-BALANCE": "O valor da transferência excede o Dinheiro Disponível"
+        }
+      }
+    },
+    "TITLE": {
+      "TITLEHOME": "Início",
+      "TITLENEWCARD": "Solicitação de cartão",
+      "TITLECARD": "Cartões",
+      "TITLEOPERATIONS": "Operações",
+      "TITLEPAYCARD": "Pagamento do cartão",
+      "TITLEREPLACEMENT": "Reposição do cartão",
+      "TITLEPOINTS": "Pontos",
+      "TITLELOAN": "Empréstimos",
+      "TITLEPAYSERVICE": "Pagamento de serviços",
+      "TITLEBLOCKCARD": "Bloqueio do cartão",
+      "TITLEWEOFFER": "Ofertas",
+      "TITLEINSURANCE": "Seguros",
+      "TITLECONFIG": "Configuração do cartão",
+      "TITLEPROFILE": "Meu perfil",
+      "TITLE-TOTAL-INCOME": "Total ingresos",
+      "TITLE-TOTAL-EXPENSES": "Total saídas",
+      "TITLE-TOTAL-SAVING": "Total guardado",
+      "NOTIFICATIONS": "Notificações",
+      "FIXED-DEPOSIT": "Prazos fixos",
+      "HELP": "Ajuda",
+      "ACCOUNT-SETTINGS": "Configurações da conta"
+    },
+    "HELP": {
+      "TITLE": "Perguntas frequentes",
+      "FIXED-DEPOSIT": "Prazos fixos",
+      "CONTACT": "Contato",
+      "BRANCHES": "Filiais",
+      "FAQS": "Prfs"
+    },
+    "NOTIFICATIONS": {
+      "TITLE": "Notificações",
+      "CARDS_TITLE": "Todas as notificações",
+      "READ": "Marcar como lido",
+      "DELETE": "Excluir",
+      "NOTIFICATION": "Notificação",
+      "UPDATE": "Atualizar",
+      "SEARCH": "Buscar",
+      "NO-NOTIFICATION": "Não há notificações para mostrar"
+    },
+    "LOGIN": {
+      "SING-IN": "Entrar",
+      "CAPTION": "Sua segurança é primordial. Usamos tecnologia avançada para manter seus dados seguros o tempo todo.",
+      "DOC-TYPE-LABEL": "Tipo de documento de identidade",
+      "DOC-NUMBER-LABEL": "Número de documento de identidade",
+      "PASSWORD-LABEL": "Senha",
+      "DOC-TYPE-PLACEHOLDER": "Selecione o tipo de documento de identidade",
+      "DOC-NUMBER-PLACEHOLDER": "Digite o número de documento de identidade",
+      "PASSWORD-PLACEHOLDER": "Digite sua senha",
+      "USEFUL-NUMBERS": "Números Úteis",
+      "BRANCHES": "Agências",
+      "OPTIONS-VIEW-VALUES": {
+        "DNI": "Registro de pessoas fisicas",
+        "PASSPORT": "Registro Geral",
+        "IDENTITY-CARD": "Carteira nacional de qualificação"
+      },
+      "DOC-TYPE-VALIDATOR": "Tipo de documento de identidade obrigatório.",
+      "DOC-NUMBER-VALIDATOR": "Número de documento de identidade obrigatório.",
+      "PASSWORD-VALIDATOR": "Senha obrigatória.",
+      "SUBMIT-BUTTON": "Entrar",
+      "VIRTUAL-KEY": "Teclado virtual",
+      "SAVEDNI": "Lembrar o número do documento",
+      "LOST-CAPTION": "Esqueceu sua senha ou nome de usuário?",
+      "LOST-ACTION": "Recuperar senha e/ou nome de usuário",
+      "ERROR-MESSAGE-SING-IN": "*Ocorreu um erro ao entrar",
+      "ERROR-MESSAGE-FORM": "*Tipo de documento, número de documento ou senha incorretos",
+      "CARD-1": "Criar conta",
+      "CARD-2": "Pontos de atendimento",
+      "CARD-3": "Contato",
+      "ABOUT": "Saiba tudo o que você pode fazer com ",
+      "CURRENT-LANG": "Idioma(PT)"
+    },
+    "REGISTER": {
+      "TITLE": "Registro",
+      "DESCRIPTION": {
+        "FORM-1": "Registre-se de maneira fácil e simples em nossa plataforma",
+        "FORM-3": "Enviamos o código para o número de telefone.",
+        "FORM-4": "Envie uma foto clara do seu documento de identificação, como seu passaporte ou carteira de identidade, frente e verso. Certifique-se de que todos os detalhes estejam visíveis."
+      },
+      "SECTION-1": {
+        "LABEL": {
+          "NAME": "Nome completo",
+          "LASTNAME": "Sobrenome completo",
+          "EMAIL": "E-mail",
+          "PASSWORD": "Senha",
+          "REPEAT-PASSWORD": "Repetir senha"
+        },
+        "PLACEHOLDER": {
+          "NAME": "Digite o nome",
+          "LASTNAME": "Digite seu sobrenome",
+          "EMAIL": "Digite seu e-mail",
+          "PASSWORD": "Digite sua nova senha",
+          "REPEAT-PASSWORD": "Repita sua senha"
+        },
+        "SUGGESTION": "Se você tiver uma conta, faça login aqui"
+      },
+      "SECTION-2": {
+        "LABEL": {
+          "DNI-NUMBER": "Número de ID",
+          "BIRTHDATE": "Data de nascimento",
+          "PHONE-NUMBER": "Número de telefone"
+        },
+        "PLACEHOLDER": {
+          "DNI-NUMBER": "Digite seu número de ID",
+          "BIRTHDATE": "Ex.: 29/02/1996",
+          "PHONE-NUMBER": "Ex.: +541130761605"
+        },
+        "CONFIRM-PHONE": {
+          "TITLE": "Confirme seu número de telefone",
+          "TEXT": "Enviaremos um código de verificação para"
+        }
+      },
+      "SECTION-3": {
+        "SUBTITLE": "Verificação de código",
+        "MESSAGE": "Este código durará 5 minutos. Você pode usar seu número de telefone para receber informações sobre sua conta."
+      },
+      "SECTION-4": {
+        "SUBTITLE": "Verificação de Identidade",
+        "LABEL": {
+          "FRONT-IMG": "Foto frontal do ID",
+          "BACK-IMG": "Foto do verso do ID"
+        },
+        "PLACEHOLDER": {
+          "FRONT-IMG": "Anexar foto frontal",
+          "BACK-IMG": "Anexar foto do verso"
+        }
+      },
+      "SECTION-5": {
+        "LABEL": {
+          "COUNTRY": "País",
+          "CITY": "Cidade",
+          "STATE": "Distrito"
+        },
+        "PLACEHOLDER": {
+          "COUNTRY": "Portugal",
+          "CITY": "Lisboa",
+          "STATE": "Lisboa"
+        }
+      },
+      "SECTION-6": {
+        "SUBTITLE": "Atividades econômicas"
+      }
+    },
+    "VALIDATORS": {
+      "REQUIRED-DEFAULT": "Este campo é obrigatório",
+      "ONLY-STRING": "Este campo só aceita caracteres do alfabeto",
+      "ONLY-NUMBER": "Apenas números são permitidos neste campo",
+      "WITHOUT-SPECIAL-CHARACTERS": "Este campo não pode conter caracteres especiais",
+      "EMAIL": "Este campo requer um e-mail válido",
+      "EMAIL-UNAVAILABLE": "Este endereço de e-mail já está em uso",
+      "TYPE-DOCUMENT-UNAVAILABLE": "Tipo de documento já associado ao número do documento",
+      "NUMBER-DOCUMENT-UNAVAILABLE": "Número do documento não disponível para este tipo de documento",
+      "LENGTH": {
+        "MIN-1": "A senha deve ter pelo menos",
+        "MIN-2": "caracteres."
+      },
+      "MATCH": {
+        "PASSWORD": "As senhas não coincidem"
+      },
+      "ACTIONS": {
+        "CONTINUE": "Continuar",
+        "CLOSE": "Fechar",
+        "CONFIRM": "Confirmar",
+        "BACK": "Voltar"
+      },
+      "FILE": {
+        "INVALID-TYPE": "Tipo de arquivo inválido"
+      },
+      "AMOUNT": {
+        "MIN-AMOUNT": "O valor mínimo é ",
+        "MAX-AMOUNT": "o valor máximo é ",
+        "AND": "e",
+        "NOT-PAYMENT": "Você não tem pagamentos a fazer neste cartão"
+      }
+    },
+    "SIDENAV": {
+      "LOGO": "LOGO",
+      "OPTIONS": {
+        "START": "Início",
+        "CARD": "Contas e cartões",
+        "LOANS": "Empréstimos",
+        "PAY-SERVICE": {
+          "TITLE": "Pagar serviços",
+          "SUBTITLE": "Seus Serviços Atuais",
+          "EMPTY-MESSAGE": "Você não tem serviços vencidos",
+          "EMPTY-ACTION": "Adicionar serviço",
+          "EMPTY-LOGO": "Credilink",
+          "NOT-FOUND": "Serviço não encontrado",
+          "MENU": {
+            "TITLE": "Novo",
+            "ITEM1": "Item 1",
+            "ITEM2": "Item 2"
+          }
+        },
+        "OPERATIONS": "Operações",
+        "WE OFFER YOU": "Oferecemos",
+        "INSURANCE": "Seguros",
+        "POINTS": "Pontos",
+        "SUPPORT": "Ajuda",
+        "LANGUAGE": "Idioma",
+        "SIGN_OFF": {
+          "TITLE": "Encerrar Sessão",
+          "QUESTION": "Tem certeza de que deseja encerrar a sessão?",
+          "CANCEL": "Cancelar",
+          "CONFIRM": "Confirmar"
+        }
+      }
+    },
+    "OPERATIONS": {
+      "NOT-FOUND-DATA": "Esta conta não possui operações associadas",
+      "SEEALL": "Todas as operações",
+      "FINISHED-IN": "Concluído em ",
+      "SEARCH": "Buscar",
+      "CONCEPT": "Conceito",
+      "AMOUNT": "Valor",
+      "DATE": "Data",
+      "DESCRIPTION": "descrição",
+      "STATUS": "Status",
+      "QUOTA": "Cota",
+      "SHARES": "Parcelas",
+      "ACTION": "Ver detalhes da operação",
+      "TYPE": "Conta / Cartão",
+      "NOT-FOUND": "Nenhum resultado encontrado",
+      "ID": "ID da operação",
+      "DATE-ACTIONS": {
+        "APPLY": "Aplicar",
+        "CANCEL": "Cancelar",
+        "RESET": "Reiniciar"
+      },
+      "TYPE-TRANSFER": {
+        "ACCOUNT": "Conta",
+        "CARD": "Cartão"
+      },
+      "STATUS_VALUES": {
+        "COMPLETED": "Concluído",
+        "PENDING": "Pendente"
+      }
+    },
+    "DIALOG": {
+      "TOKEN": "Para continuar com o reabastecimento, insira seu token digital:",
+      "REQUIRED": "Token necessário",
+      "SUCCESS": "A restauração foi solicitada com sucesso!",
+      "ACCEPT": "Aceitar"
+    },
+    "OPERATIONS-MODAL": {
+      "TITLE": "Detalhes da Operação",
+      "AMOUNT": "Valor",
+      "START-DATE": "Data de Início",
+      "OVERDUE-DATE": "Data de Vencimento",
+      "GAIN": "Ganho",
+      "ID-FIXED-DEPOSIT": "ID do Depósito a Prazo",
+      "ORIGIN-ACCOUNT": "Conta de origem"
+    },
+    "PAYMENT-CARD": {
+      "SUCCESS-LOAN": "Pagamento de empréstimo",
+      "SUCCESS-FEE": "Pagamento",
+      "FEE": "Taxa",
+      "OF": "de",
+      "SUCCESS": "Pagamento de cartão",
+      "TITLE-DESKTOP": "Cartões",
+      "TITLE-MOBILE": "Pagamento de cartão",
+      "CHOOSE": "Selecione o cartão que deseja pagar",
+      "PAY_CARD": "Vamos pagar o cartão",
+      "SUBMIT": "Continuar",
+      "FORM": {
+        "AMOUNT": "Digite o valor que deseja pagar",
+        "METHOD": {
+          "LABEL": "Métodos de pagamento",
+          "PLACEHOLDER": "Selecione como deseja pagar",
+          "OPERATION": "Operação",
+          "TOTAL": "Pagar tudo"
+        },
+        "MIN": "Pagar o mínimo: ",
+        "MAX": "Pagar tudo: ",
+        "OTHER": "Outro",
+        "ACCOUNT": "De qual conta deseja pagar?",
+        "CHOOSE-ACCOUNT": "Selecione uma conta",
+        "SAVING-BANK": "Conta poupança em",
+        "BALANCE": "Saldo disponível:",
+        "QR": "Escanear código QR para pagar com outro método de pagamento",
+        "VALIDATOR": "O valor mínimo deve ser superior a $5000 e inferior a $25000.",
+        "SELECT-OPERATION": "Selecione uma operação para pagar",
+        "PAY": "Pagar",
+        "OPERATION": "Digite o pagamento pendente a ser pago",
+        "VALIDATION-DEBT": "Atualmente, você não possui pagamentos a serem feitos"
+      },
+      "DIALOG": {
+        "ORIGIN": "Conta de origem",
+        "REASON": "Motivo",
+        "PAYING": "Você está pagando",
+        "FROM": "de",
+        "SAVING-BANK": "conta poupança em",
+        "CANCEL": "Cancelar",
+        "CONFIRM": "Confirmar",
+        "PAY": "Pagamento",
+        "PAY-ADDRESS": "Pagamento para",
+        "PAY-APPROVED": "Pagamento aprovado",
+        "SUCCESS": "O pagamento foi realizado com sucesso!",
+        "ACCEPT": "Aceitar",
+        "CLOSE": "Fechar",
+        "DOWNLOAD-SUMMARY": "Ver recibo"
+      }
+    },
+    "PAYMENT-CARD-CHOOSE": {
+      "LIMIT": "Limite",
+      "OF": "de"
+    },
+    "PAYMENT-CREDITCARD": {
+      "TOTAL-PAYMENT": "Total pago:",
+      "MINIMUM-PAYMENT": "Pagamento minimo:",
+      "VIEW-NEW-CONSUMPTION": "Ver novos consumos",
+      "VIEW-SUMMARY": "Ver resumo"
+    },
+    "REPLACEMENT-CARD": {
+      "BACK-TO-CARDS": "Cartões",
+      "BACK-TO-CARDS-MOBILE": "Substituição da cartão",
+      "TITLE": "Selecione o cartão que deseja substituir",
+      "WARNING": "O cartão será reemitido automaticamente bloqueando o atual, e não poderá ser utilizado.",
+      "MOTIVE": "Motivo da substituição",
+      "OPTIONS": {
+        "DISPLAY-TITLE": "Reemissão do cartão realizada com sucesso",
+        "STOLEN": "Roubo",
+        "LOST": "Perdido",
+        "BROKEN": "Quebrado"
+      },
+      "DIALOG": {
+        "TOKEN": "Para continuar com o reabastecimento, insira seu token digital:",
+        "REQUIRED": "Token necessário",
+        "CANCEL": "Cancelar",
+        "CONFIRM": "Confirmar",
+        "SUCCESS": "Seu cartão foi reemitido com sucesso. Conheça sua senha secreta de 4 dígitos",
+        "ACCEPT": "Aceitar"
+      },
+      "SUBMIT": "Continue"
+    },
+    "HEADER": {
+      "SEARCH": "Digite aqui...",
+      "OPTIONS": {
+        "START": "Início",
+        "CARD": "Cartões",
+        "LOANS": "Empréstimos",
+        "PAY SERVICE": "Pagar serviços",
+        "OPERATIONS": "Operações",
+        "WE OFFER YOU": "Oferecemos",
+        "INSURANCE": "Seguros",
+        "POINTS": "Pontos",
+        "SUPPORT": "Ajuda"
+      },
+      "CONFIG": {
+        "DATA": "Atualizar meus dados",
+        "CONFIG": "Configuração do cartão",
+        "BLOCK": "Bloqueio do cartão",
+        "LANGUAGE": "linguagem",
+        "LANGUAGES": {
+          "EN": "Inglês (EN)",
+          "ES": "Espanhol (ES)",
+          "PT": "Português (PT)"
+        }
+      },
+      "NOTIFICATIONS": "notificações",
+      "VIEW_ALL": "Ver todas",
+      "CREATE_SERVICE": "Pagar novo serviço",
+      "CREATE_LOAN": "Criar novo empréstimo",
+      "CREATE_FIXED-DEPOSIT": "Criar novo depósito a prazo fixo"
+    },
+    "TRANSFERS": {
+      "TITLE": "Operações",
+      "SUBTITLE": "Últimas concluídas",
+      "SEEALL": "Ver tudo"
+    },
+    "DEPOSIT": {
+      "SUCCESS": "O depósito a prazo foi realizado com sucesso!",
+      "DEPOSIT": "Depósito",
+      "ACCOUNTORIGIN": "Conta de origem",
+      "AMOUNT-CREDIT": "Valor a creditar",
+      "DATE": "Data de criação",
+      "SUCCESS-BUTTON": "Aceitar",
+      "CLOSE": "Fechar"
+    },
+    "WALLET": {
+      "AMOUNAVAILABLEFEES": "Montante disponível em parcelas",
+      "AMOUNT-AVAILABLE-IN-FEES": "Montante disponível em parcelas",
+      "AMOUNT-AVAILABLE": "Montante disponível",
+      "BALANCE": "Saldo",
+      "ACCOUNT-CARDS": "Contas e Cartões",
+      "CARDS": "Cartões",
+      "CBU-CARD": "CBU",
+      "CREDIT": "Crédito",
+      "CURRENCY": "Moeda",
+      "CURRENT-MOVEMENTS": "Movimentos atuais",
+      "DEBIT": "Débito",
+      "DISABLED": "Desativar cartão",
+      "EXPIRY": "Fecho",
+      "NICKNAME-CARD": "Apelido",
+      "NUMBER_CARD": "Número do Cartão",
+      "OF": "de",
+      "PAYMENT-METHOD": "Método de pagamento",
+      "PAYMENTMETHOD": "Método de pagamento",
+      "SUMMARY": "Ver resumo",
+      "TITLE-CARD-CREDIT": "Cartão de crédito",
+      "TITLE-CARD-DEBIT": "Cartão de débito",
+      "TITLE-CREDIT": "Cartão de crédito",
+      "TITLE-DEBIT": "Cartão de débito",
+      "TITLE": "Carteira",
+      "TOTAL_AVAILABLE": "Total disponível",
+      "USED-AMOUNT": "Montante utilizado",
+      "USED": "Utilizado"
+    },
+    "AUTO-DEBIT": {
+      "TITLE": "Débito associado",
+      "CHECK-DEBIT": "Consultar suas Dívidas",
+      "ATTACHED": "Cancelar adesão",
+      "NUMBER-ID": "Númber ID",
+      "ATTACHED-CARD": "Cartão Vinculado",
+      "SERVICE": "Serviço",
+      "MORE-INFO": "Mais Informações",
+      "ATTACHED-DATE": "Data de Adesão",
+      "DESCRIPTION": {
+        "ATTACHED-CARD": "Cartão Anexado",
+        "CONTACT-NUMBER": "Número de Contato",
+        "BUSINESS-NAME": "Razão Social",
+        "CANCEL-THE-SERVICE": "Cancelar o Serviço"
+      },
+      "NOT-FOUND-DATA": "Sem dados disponíveis"
+    },
+    "DISABLED-CARD-DIALOG-MODAL": {
+      "QUESTION-DIALOG": "Você tem certeza de que deseja aceitar",
+      "QUESTION-DISABLE": "Você tem certeza de que deseja desativar o cartão?",
+      "QUESTION-ACTIVATE": "Você tem certeza de que deseja ativar o cartão?",
+      "CANCEL": "Cancelar",
+      "CONFIRM": "Confirmar",
+      "QUESTION-ADVANCE": "Você está pagando",
+      "QUESTION-ADVANCE-FROM": "De"
+    },
+    "FIXED-DEPOSIT": {
+      "TYPE-TABLE": "Tipo de Depósito a Prazo",
+      "TYPE": "Selecione o tipo de depósito a prazo",
+      "SERVICE": "Serviços",
+      "ENTERPRISE": "Empresa",
+      "PAYCODE": "Código de Pagamento",
+      "ACCOUNT": "Selecione a conta",
+      "ACTION": "Ver detalhes",
+      "CANCEL-DEPOSIT": "Cancel depósito",
+      "DETAIL-FIXED-DEPOSIT": "Detalhe do Depósito a Prazo Fixo",
+      "QUESTION": "Você tem certeza de que deseja cancelar o depósito a prazo fixo?",
+      "CONFIRM": "Confirmar",
+      "CANCEL": "Cancelar",
+      "AMOUNT": "Montante",
+      "TIME": "Duração do Depósito a Prazo",
+      "TITLE": "Depósitos a Prazo",
+      "VTO": "Vencimento",
+      "DAY": "Dias",
+      "ENTRY_DATE": "Data de Criação",
+      "REVERSED_DAYS": "Dias Investidos",
+      "EXPIRATION_DATE": "Vencimento",
+      "INTEREST": "Juros",
+      "PERCENTAGE": "Percentagem",
+      "GAIN": "Ganho",
+      "PLACEHOLDER-SELECT-ACCOUNT": "Selecione uma conta",
+      "ADD_BUTTON": "Criar depósito a prazo",
+      "MODAL": {
+        "ERROR-MAX": "* O valor excede o saldo da conta.",
+        "ERROR-MIN": "* O valor está abaixo do mínimo para realizar um depósito.",
+        "TITLE": "Depósito a Prazo Fixo",
+        "AMOUNT_PLACEHOLDER": "Valor que deseja investir",
+        "DURATION_PLACEHOLDER": "Duração do depósito a prazo",
+        "BUTTON": "Realizar depósito a prazo",
+        "CHECKBOX": "Aceito os termos e condições associados à criação de um depósito a prazo.",
+        "AMOUNT_VALIDATOR": "O valor é obrigatório",
+        "AMOUNT-AVAILABLE": "Valor Disponível",
+        "DURATION_VALIDATOR": "Você deve selecionar uma duração",
+        "AMOUNT_INVALID": "O valor deve ser maior que 0"
+      }
+    },
+    "CARD-INFO": {
+      "TITLE": "Modificar limite de extração",
+      "CAROUSEL": "Cartões",
+      "LIMIT": "Limite",
+      "NEW": "Adicionar Novo",
+      "DOWNLOAD-SUMMARY": "Baixar resumo",
+      "DEPOSIT": "Depositar Dinheiro",
+      "WITHDRAW": "Retirar Dinheiro",
+      "INFO-TITLE": "Informações do cartão",
+      "INFO-NAME": "Nome do cartão",
+      "INFO-NUMBER": "Número do cartão",
+      "INFO-BANK": "Banco",
+      "INFO-OWNER": "Nome",
+      "INFO-EXPIRE": "Válido até",
+      "INFO-TABLE-TITLE": "Transações",
+      "LIMITE": "Limite de saque atualizado",
+      "BANNER-DIALOG1": "Obtenha seu cartão",
+      "BANNER-DIALOG2": "facilmente",
+      "BANNER-DIALOG3": "Aproveite os benefícios",
+      "BANNER-DIALOG4": "de ter seu cartão em",
+      "BANNER-DIALOG5": "suas mãos"
+    },
+    "LOAN-CARDS": {
+      "TITLE": "Empréstimos",
+      "PAID": "Pago:",
+      "REMAINING": "Restante:",
+      "VIEW-ALL": "Ver tudo",
+      "BUTTON": "Ver tudo",
+      "VTO": "Prox exp:",
+      "FEE": "Cota",
+      "OF": "de"
+    },
+    "INFO-CARDS": {
+      "BALANCE-MONTHLY": "Balanço mensal",
+      "DATE": "Mês passado",
+      "TOTAL_AMOUNT": "Balance",
+      "TOTAL_EXPENSES": "Despesas totais",
+      "TOTAL_SAVINGS": "Balanço total",
+      "TOOL_TIP": "Este espaço resume seus movimentos financeiros. Reflita suas transações, despesas e saldos"
+    },
+    "INVESTMENTS": {
+      "TITLE": "Investimentos",
+      "AMOUNT": "Fundo invertido"
+    },
+    "NEW-CREDIT-CARD": {
+      "LABEL1": "Dados pessoais",
+      "LABEL2": "Endereço residencial",
+      "LABEL3": "Cliente PEP",
+      "LABEL4": "Fontes de renda",
+      "INCOMPLETE": "Campo incompleto",
+      "CONTINUE": "Continuar",
+      "CONFIRM": "Terminar",
+      "REQUIRED": "*Campo obrigatório",
+      "MIN": "Este campo requer um mínimo de 3 caracteres",
+      "ONLY-LETTERS": "Somente letras permitidas",
+      "ONLY-NUMBER": "Somente números permitidos",
+      "ONLY-NUMBER-LETTERS": "Somente números e letras são permitidos",
+      "EMAIL-VALID": "Entre com um email válido",
+      "FORM1": {
+        "NAME": "Nome",
+        "EMAIL": "E-mail",
+        "PHONE": "Telefone celular",
+        "PLACE-OF-BIRTH": "Local de nascimento",
+        "PROFESSION": "Profissão",
+        "LASTNAME": "Sobrenome",
+        "DOCUMENT-TYPE": "Tipo de documento",
+        "TYPE": "Tipo",
+        "DOCUMENT-NUMBER": "Número do documento",
+        "DOCUMENT-N": "Nº do documento",
+        "SEX": "Sexo",
+        "NATIONALITY": "Nacionalidade",
+        "CIVIL-STATUS": "Estado civil"
+      },
+      "FORM2": {
+        "COUNTRY": "País",
+        "DISTRICT": "Distrito",
+        "STREET": "Rua",
+        "DEPARTAMENT": "Departamento",
+        "MUNICIPALITY": "Município/Província/Região",
+        "POSTAL-CODE": "Código postal",
+        "NUMBERING": "Numeração",
+        "FLOOR": "Andar"
+      },
+      "FORM3": {
+        "PEP": "Você é cliente PEP?",
+        "COUNTRY-ENTITY": "País da entidade",
+        "POSITION": "Cargo",
+        "ORIGIN-OF-WEALDTH": "Origem da riqueza",
+        "FAMILIAR-PEP": "Parente PEP?",
+        "CONTACT-NUMBER": "Número de contato",
+        "PNP": "Você é cliente PNP?",
+        "ENTITY": "Entidade"
+      },
+      "FORM4": {
+        "INCOME-TYPE": "Tipo de renda",
+        "TRADENAME": "Nome comercial",
+        "CURRENCY": "Moeda",
+        "ECONOMIC-ACTIVITY": "Atividade econômica",
+        "LABOR-DIRECTION": "Endereço completo do trabalho",
+        "ANNUAL-AMOUNT": "Valor anual aproximado"
+      }
+    },
+    "LOAN-VIEW": {
+      "NEW-LOAN": "Solicitar novo empréstimo",
+      "NEW-LOAN-AMOUNT": "Digite o valor que deseja solicitar",
+      "LOAN-TYPE": "Tipo de empréstimo",
+      "DUES": "Parcelas",
+      "TITLE": "Empréstimos",
+      "TYPE-LOANS": {
+        "PERSONAL": "Empréstimo pessoal",
+        "HIPOTECARIO": "Empréstimo hipotecário",
+        "UVA": "Empréstimo hipotecário de uva"
+      },
+      "CONTINUE": "Continuar",
+
+      "NOT-FOUND": "Não há empréstimos solicitados",
+      "LOAN-NAME": "Nome do Empréstimo",
+      "AMOUNT": "Valor Total do Empréstimo",
+      "TAXAS": "Impostos",
+      "DATE": "Data de Criação",
+      "NEW": "Solicitar Novo Empréstimo",
+      "EXPIRE": "Data de Vencimento",
+      "INTEREST": "Taxa de interésse",
+      "QUOTA": "Parcela",
+      "TOTAL-AMOUNT": "Total",
+      "AMOUNTQUOTA": "Valor da Parcela",
+      "STATUS": "Estado",
+      "OUTSTANDING-AMOUNT": "Valor Pendente",
+      "LOAN-ID": "ID do Empréstimo",
+      "STATUS_VALUES": {
+        "OUTSTANDING": "Pendente de Pagamento",
+        "CANCELLED": "Cancelado",
+        "EXPIRED": "Vencido"
+      },
+      "SHARES": "Ações",
+      "BUTTON1": "Pagar",
+      "BUTTON2": "Cancelado",
+      "PAY-LOAN": "Pagar empréstimo",
+      "VIEW-DETAILS": "Ver detalhes",
+      "DETAILS-LOAN": "Detalhes do empréstimo"
+    },
+    "NEW-LOAN-MODAL": {
+      "NEW": "Solicitar novo empréstimo",
+      "PAYMENT": "Selecionar tipo de empréstimo",
+      "AMOUNT-LOAN": "Digite o valor que deseja solicitar",
+      "EXPIRE": "Data de vencimento",
+      "INTEREST": "Taxa de juros",
+      "QUOTA": "Parcelas",
+      "AMOUNTQUOTA": "Valor da parcela",
+      "PROCEED": "Continuar",
+      "SHARES": "Ações",
+      "BUTTON1": "Pagar",
+      "BUTTON2": "Cancelado",
+      "PAY-LOAN": "Pagar empréstimo",
+      "SELECT-QUOTE": "Selecione as parcelas que deseja pagar"
+    },
+    "PAY-LOAN-MODAL": {
+      "CARD-CREDIT": "Cartão de crédito",
+      "AMOUNT-PAYMENT": "Digite o valor que deseja pagar",
+      "LOAN": "Empréstimos",
+
+      "PAY-SELECT-LOAN": "Selecione o empréstimo que deseja pagar",
+      "ERROR-MAX": "* O valor excede o saldo da conta e/ou o valor total a ser pago do empréstimo.",
+      "ERROR-MIN": "* O valor não atinge o mínimo da parcela.",
+      "PAY": "Realizar pagamento",
+      "ACCOUNTS": "Contas",
+      "SELECT": "Selecione a conta com a qual deseja pagar",
+      "AMOUNT": "Digite o valor que deseja pagar",
+      "TOTAL-DUES": "Valor da parcela",
+      "TOTAL-PAY": "Pagar total",
+      "SELECT-LOAN": "Selecionar empréstimo"
+    },
+    "NOTIFICATION-CARD": {
+      "DELETE": "Excluir"
+    },
+    "CARD-LINKS": {
+      "NAME": {
+        "PAY": "Pagar cartão",
+        "BLOCK": "Bloquear cartão",
+        "REISSUE": "Reemissão do cartão",
+        "CONFIGURATION": "Configuração do cartão"
+      },
+      "LINK": {
+        "PAY-CARD": "pagar",
+        "BLOCK-CARD": "bloquear",
+        "REISSUE-CARD": "reemitir",
+        "CONFIGURATION-CARD": "setting"
+      }
+    },
+    "BALANCE": {
+      "TITLE": "Evolução das despesas anuais",
+      "SPENT": "Gastos",
+      "NOT-DATA-AVAILABLE": "Sem dados disponíveis",
+      "SAVINGS": "Poupança",
+      "WEEKLY": {
+        "TITLE": "Semanal",
+        "MONDAY": "Seg",
+        "TUESDAY": "Ter",
+        "WEDNESDAY": "Qua",
+        "THURSDAY": "Qui",
+        "FRIDAY": "Sex",
+        "SATURDAY": "Sáb",
+        "SUNDAY": "Dom"
+      },
+      "MONTHLY": {
+        "TITLE": "Por mês"
+      },
+      "ANNUAL": {
+        "TITLE": "Anual",
+        "JANUARY": "Jan",
+        "FEBRUARY": "Fev",
+        "MARCH": "Mar",
+        "APRIL": "Abr",
+        "MAY": "Mai",
+        "JUNE": "Jun",
+        "JULY": "Jul",
+        "AUGUST": "Ago",
+        "SEPTEMBER": "Set",
+        "OCTOBER": "Out",
+        "NOVEMBER": "Nov",
+        "DECEMBER": "Dez"
+      }
+    },
+    "POINTS": {
+      "TITLE": "Pontos",
+      "DESCRIPTION1": "Você tem ",
+      "DESCRIPTION2": " pontos acumulados",
+      "TEXT1": "Próximo vencimiento ",
+      "TEXT2": " pontos",
+      "DATE": "14/02/2023",
+      "MY-EXCHANGES": "Minhas trocas",
+      "EXCHANGE": "Resgatar agora",
+      "TABLE": {
+        "POINTS": "Pontos",
+        "DATE": "Data",
+        "CONCEPT": "Conceito",
+        "ACTIONS": "Ações",
+        "ADDITION": "Somaste",
+        "EXCHANGE": "Trocaste"
+      }
+    },
+    "PONTOS-MODAL": {
+      "TITLE": "Resgatar pontos",
+      "CATEGORIES": "Categorias",
+      "TOTAL-POINTS": "Total de pontos",
+      "SUBTITLE": "Selecione o que deseja resgatar",
+      "CATEGORY": {
+        "KITCHEN": "Cozinha",
+        "OUTDOOR": "Exterior",
+        "INDOOR": "Interior",
+        "LIVING_ROOM": "Sala de estar"
+      },
+      "BUTTON-POINTS": {
+        "OUT-RANGE": "Você não tem pontos suficientes",
+        "ON-RANGE": "Resgatar por ",
+        "UNSELECTED": "Nenhum produto selecionado"
+      },
+      "SUBCATEGORY": {
+        "HOME_APPLIANCES": "Eletrodomésticos",
+        "TABLEWARE": "Artigos de mesa",
+        "UTENSILS": "Utensílios",
+        "STORAGE": "Armazenamento",
+        "GARDEN": "Jardim",
+        "FURNITURE": "Móveis",
+        "DECORATION": "Decoração",
+        "ILLUMINATION": "Iluminação",
+        "RUGS": "Tapetes",
+        "TABLES": "Mesas",
+        "MIRRORS": "Espelhos",
+        "CANDLES": "Velas",
+        "CUSHIONS": "Almofadas"
+      },
+      "PICKUP": {
+        "TITLE": "Selecione um ponto de retirada",
+        "LOCAL": "Nome do local",
+        "MENSAGEM": "Os produtos chegarão entre ",
+        "MENSAGEM2": " e ",
+        "SUCESSO": "Produtos resgatados",
+        "FALHA": "Erro ao resgatar produtos",
+        "ZIP-PLACEHOLDER": "Ex.: 1750"
+      },
+      "PONTOS": "pontos",
+      "MY-EXCHANGES": {
+        "TITLE": "Meus resgates",
+        "MAKED": "Você trocou por",
+        "ALL": "Todos",
+        "IN-PROGRESS": "Em andamento",
+        "DELIVERED": "Entregues",
+        "STATUS": {
+          "DELIVERED": "Entregue",
+          "IN_PROGRESS": "Em processo"
+        }
+      }
+    },
+    "BENEFITS": {
+      "TITLE": "Benefícios"
+    },
+    "WE-OFFER-VIEW": {
+      "TITLE": "Oferecemos",
+      "BUTTON": {
+        "HOME": "Seguro residencial",
+        "ADDITIONAL": "Cartões adicionais",
+        "INCREASE": "Ampliação do limite de crédito",
+        "CAR": "Seguro de automóvel"
+      },
+      "BANNER": {
+        "TITLE": "Realizamos todos os seus sonhos",
+        "SUBTITLE": "Solicite seu crédito com taxas de juros baixas"
+      }
+    },
+    "INSURANCES-VIEW": {
+      "SUBTITLE": "Apólices ativas",
+      "BUTTON": {
+        "NEW": "Solicitar novo orçamento",
+        "PAY": "Pagar seguro",
+        "SAC": "SAC"
+      },
+      "BANNER-TEXT": {
+        "TEXT-1": "Proteja sua vida com ",
+        "TEXT-2": "Seguros BB",
+        "TEXT-3": "10% de desconto"
+      }
+    },
+    "CARDS-BLOCK": {
+      "MAIN": {
+        "DISPLAY": "Seu cartão foi bloqueado com sucesso",
+        "TITLE": "Bloqueio de cartão",
+        "WARNING": "O cartão bloqueado não poderá ser utilizado.",
+        "REASON": "Motivo do bloqueio",
+        "REASON-LABEL": "Selecione o motivo",
+        "REASON-OPTION-1": "Perda ou roubo do cartão",
+        "REASON-OPTION-2": "Atividade suspeita ou fraudulenta",
+        "REASON-OPTION-3": "Proteção durante viagens",
+        "REASON-OPTION-4": "Outro...",
+        "BLOCK": "Bloquear",
+        "ERROR": "* Você deve selecionar um motivo",
+        "CARD-OF": "Cartão de"
+      },
+      "MODAL-1": {
+        "TITLE": "Ao realizar esse bloqueio, seu cartão não permitirá compras ou saques.",
+        "TIP": "Você tem certeza?",
+        "CANCEL": "Cancelar",
+        "NEXT": "Bloquear cartão"
+      },
+      "MODAL-2": {
+        "TITLE": "Seu cartão foi bloqueado com o código:",
+        "TIP": "Ative seu novo cartão e continue desfrutando dos benefícios do seu cartão.",
+        "CANCEL": "Cancelar",
+        "NEXT": "Ativar novo cartão"
+      },
+      "MODAL-3": {
+        "TITLE": "Seu cartão foi reativado com sucesso",
+        "TIP": "Agora você pode continuar aproveitando os benefícios do seu cartão",
+        "NEXT": "Aceitar"
+      },
+      "BLOCKED-CARD": {
+        "MESSAGE": "Este cartão está bloqueado"
+      }
+    },
+    "CARDS-CONFIG": {
+      "SAVE": "Salvar alterações",
+      "TITLE": "Configuração do cartão",
+      "INFORMATION": {
+        "SUB-TITLE": "Outros ajustes"
+      },
+      "OPTION": {
+        "ONLINE_PURCHASES": "Compras online",
+        "CASH_WITHDRAWAL": "Saque em dinheiro",
+        "INTERNATIONAL_PURCHASES": "Compras no exterior",
+        "OVERDRAFTS": "Limite de crédito",
+        "PIN": "Branquear PIN",
+        "ENABLED": "Desabilitar cartão"
+      },
+      "HELP": {
+        "ONLINE_PURCHASES": "Permite realizar compras de produtos ou serviços pela internet.",
+        "CASH_WITHDRAWAL": "Permite retirar dinheiro em espécie de caixas eletrônicos ou pontos de serviço.",
+        "INTERNATIONAL_PURCHASES": "Permite fazer compras com o cartão em estabelecimentos localizados fora do país.",
+        "OVERDRAFTS": "Permite realizar transações que excedam o saldo ou limite de crédito disponível no cartão.",
+        "PIN": "Permite alterar o PIN de segurança.",
+        "ENABLED": "Permite desabilitar o cartão."
+      },
+      "CARD": {
+        "TITLE": "Configurar Cartões"
+      },
+      "MODAL": {
+        "TITLE": "As configurações do seu cartão foram atualizadas.",
+        "TITLE_UNCHANGE": "No houve alterações na configuração.",
+        "CLOSE": "Fechar"
+      },
+      "PIN-MODAL": {
+        "TITLE": "Reinicialização de PIN",
+        "STEP-1": "Digite o seu código de segurança atual",
+        "STEP-2": "Digite o seu novo código de segurança",
+        "CONTINUE": "Continuar",
+        "ERROR": "O PIN enviado não está correto",
+        "SUGGESTION-1": "Se não lembrar sua senha, você pode redefini-la através do Online Banking.",
+        "SUGGESTION-2": "Para maior segurança, o código não deve ser sua data de nascimento ou informações semelhantes.",
+        "SUCCESS-MESSAGE": "Seu código PIN foi modificado com sucesso!",
+        "CLOSE": "Fechar"
+      }
+    },
+    "FOOTER": {
+      "LAST-UPDATE": "Última atualização",
+      "ALL-RIGHT-RESERVED": "Todos os direitos reservados"
+    },
+    "PROFILE": {
+      "NAME": "Nome do perfil",
+      "LASTNAME": "Sobrenome",
+      "CONTACT": "Informacão de contato",
+      "DIRECTION": "Endereço",
+      "NOTIFICATIONCOMERCIAL": "Envio de notificações comerciais",
+      "NOTIFICATIONTRANSACTION": "Envio de notificações de transações",
+      "STATUS": "Tipo de envio de extrato de conta",
+      "SOURCE-INCOME": "Fontes de renda",
+      "TYPE-INCOME": "Tipo de renda",
+      "CURRENCY": "Moeda",
+      "AMOUNT": "Valor",
+      "ACTIVATED": "Ativado",
+      "DISABLED": "Desabilitado",
+      "CLOSE": "Fechar",
+      "SAVE": "Salvar alterações",
+      "SECTION": {
+        "PROFILE": "Dados do perfil",
+        "RESIDENCE": "Dados de residência"
+      },
+      "FORM": {
+        "COUNTRY": "País",
+        "CITY": "Cidade",
+        "STREET": "Rua",
+        "STREET-NUMBER": "Número da Rua",
+        "ZIP": "Código Postal"
+      },
+      "ACTIVITY": {
+        "TITLE": "Atividade Econômica",
+        "SELLER": "Vendedor",
+        "DEVELOPER": "Desenvolvedor",
+        "TOURISM": "Turismo",
+        "TRADE": "Comércio"
+      },
+      "INCOME": {
+        "TITLE": "Fonte de Renda",
+        "FREELANCER": "Trabalhador Independente",
+        "DEPENDENCY_RELATIONSHIP": "Relação de Dependência",
+        "TEMPORAL_CONTRACT": "Contrato Temporário",
+        "CONTRACT_SERVICE": "Contrato de Serviço"
+      }
+    },
+    "PAY-SERVICE-MODAL": {
+      "TITLE": "Pagar novo serviço",
+      "SELECT": {
+        "SERVICE": "Selecione o tipo de serviço que deseja pagar",
+        "BUSINESS": "Selecionar empresa",
+        "ACCOUNT": "Selecione a conta com a qual deseja pagar"
+      },
+      "LABELS": {
+        "SERVICE": "Buscar serviço",
+        "BUSINESS": "Buscar empresa",
+        "ACCOUNT": "Conta",
+        "SERVICES": "Serviço"
+      },
+      "BUTTONS": {
+        "BACK": "Voltar",
+        "NEXT": "Seguinte",
+        "PAY": "Pagar"
+      },
+      "ERROR": {
+        "INSUFFICIENT-BALANCE": "Fundos insuficientes"
+      }
+    },
+    "PAY-SERVICE-VIEW": {
+      "SUBTITLE": "Os serviços actuais",
+      "OTHERS": "Outros serviços"
+    },
+    "ACCOUNTS": {
+      "NOT-FOUND": "Você não tem contas associados",
+      "TITLE": "Contas",
+      "BUTTONS": {
+        "TRANSFER": "Transferir dinheiro",
+        "DEPOSIT": "Depositar dinheiro"
+      },
+      "SAVINGS-BANK": {
+        "TITLE": "Conta poupança em pesos",
+        "DATA-ACCOUNT": "Dados da conta",
+        "CBU": "CBU / Alias",
+        "ACCOUNT-DATA": "Dados da conta",
+        "BUY": "Comprar dólares",
+        "ASK": "Pedir dinheiro",
+        "TRANSFER": "Transferir",
+        "QR": "Comprar com QR",
+        "DEPOSIT": "Fazer depósito a prazo"
+      },
+      "CHECKING-ACCOUNT": {
+        "TITLE": "Conta corrente",
+        "TITLE-USD": "Conta correnete usd",
+        "BUY-CURRENCY": "Comprar moeda estrangeira",
+        "CHECKBOOK": "Pedir um talão de cheques",
+        "UNSUBSCRIBE": "Cancelar inscrição"
+      },
+      "SHARED": {
+        "DEPOSIT": "Fazer depósito a prazo"
+      },
+      "TYPES-CURRENCY": {
+        "ARS": "Conta poupança em pesos",
+        "USD": "Conta corrente em dólares",
+        "BRL": "Conta em reais"
+      },
+      "REASON": {
+        "CAPITAL": "Aporte de capital",
+        "BUY": "Compra de bens",
+        "PAY-SERVICES": "Pagamento de serviços",
+        "COLLECTION": "Cobrança",
+        "LOAN": "Empréstimo"
+      }
+    },
+    "LOANS-CHARTS-TOTAL-AMOUNT-PAY": {
+      "TITLE": "Valor total a pagar",
+      "PENDING": "Pendente",
+      "PAID": "Pago",
+      "FROM-TOTAL": "Do total"
+    },
+    "NOT_FOUND": {
+      "DATA-TABLES": "Sem dados"
+    },
+    "GENERAL": {
+      "CLEAR-FILTERS": "Filtros limpos"
+    },
+    "GENERAL-MODAL": {
+      "SEE-RECEIPT": "Ver comprovante",
+      "CLOSE": "Fechar"
+    }
+  }
+}

@@ -1,0 +1,117 @@
+@use "@angular/material" as mat;
+
+@import 'src/app/fs-styles/variables/color.scss';
+@import "src/app/fs-styles/mixins/size.scss";
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+@include mat.core();
+$finsuite-primary: mat.define-palette(mat.$indigo-palette);
+$finsuite-accent: mat.define-palette(mat.$pink-palette, A200, A100, A400);
+$finsuite-warn: mat.define-palette(mat.$red-palette);
+
+$finsuite-theme: mat.define-light-theme(
+  (
+    color: (
+      primary: $finsuite-primary,
+      accent: $finsuite-accent,
+      warn: $finsuite-warn,
+      ),
+      )
+      );
+      
+      @include mat.all-component-themes($finsuite-theme);
+      
+      html,
+      body {
+        height: 100%;
+      }
+      
+      body, * {
+        margin: 0;
+        font-family: Inter, Roboto, "Helvetica Neue", sans-serif;
+      }
+      
+
+/* FADE ANIMATION */
+
+.fade-in {
+  opacity: 0;
+  animation: fadeIn 0.5s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 4px;
+}
+
+*::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #c3c3c3;
+  border-radius: 20px;
+}
+
+.custom-container .mat-dialog-container {
+  border-radius: 20rem !important;
+}
+.mat-mdc-dialog-container .mdc-dialog__surface {
+  border-radius: 2rem !important;
+}
+@media (width < 1024px) {
+  *::-webkit-scrollbar {
+    width: 0;
+  }
+  *::-webkit-scrollbar-thumb {
+    background-color: transparent;
+    border-radius: 20px;
+  }
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.fs-modal {
+  min-width: 100vw;
+  min-height: 100vh;
+  background-color: inherit;
+  
+  .mat-mdc-dialog-container .mdc-dialog__surface {
+    border-radius: 0 !important;
+    background: #f9f9f9 !important;
+    min-height: unset;
+  }
+  @include lg() {
+    min-width: auto;
+    height: auto;
+
+    .mat-mdc-dialog-container .mdc-dialog__surface {
+      border-radius: 2rem !important;
+      background: #f9f9f9 !important;
+    }
+  }
+}
+
+.disable{
+  opacity: .7;
+}
+
+h1, h2, h3, h4, h5, h6{
+  color: $black-2;
+}
+
+p, b {
+  color: $black-2;
+}

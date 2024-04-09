@@ -1,0 +1,22 @@
+[
+  {
+    "name": "PAY",
+    "link": "FsPaymentCardViewComponent",
+    "icon": "assets/img/card-links/pay.svg"
+  },
+  {
+    "name": "BLOCK",
+    "link": "FsCardsBlockComponent",
+    "icon": "assets/img/card-links/block.svg"
+  },
+  {
+    "name": "REISSUE",
+    "link": "FsReplacementCardViewComponent",
+    "icon": "assets/img/card-links/reissue.svg"
+  },
+  {
+    "name": "CONFIGURATION",
+    "link": "FsCardsConfigComponent",
+    "icon": "assets/img/card-links/configuration.svg"
+  }
+]

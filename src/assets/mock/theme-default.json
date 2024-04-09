@@ -1,0 +1,20 @@
+{
+  "nameColor": "#000000",
+  "textColor": "#000000",
+  "borderColor": "#252f69",
+  "subtitleColor": "#2a2a2d",
+  "toggleButtonColor": "#22242c",
+  "titleColorNotification": "#3f3f3f",
+  "dateTimeColor": "#505050",
+  "graphColor": "#000000",
+  "lineGraphColor": "#474747",
+  "sideBarColor": "#181c1f",
+  "borderSideBarColor": "#000000",
+  "buttonTextColor": "#FFF",
+  "buttonBackgroundColor": "#000000",
+  "loginButtonBackgroundColor": "#28B1B9",
+  "fontUrl": "",
+  "fontName": "Inter",
+  "logo": "./assets/finsuite/img/logoEasybanking/LogoEasy.svg",
+  "backgroundImage": "./assets/img/login/fs-login-background.webp"
+}

@@ -1,0 +1,22 @@
+{
+  "id": 1,
+  "name": "Luz Deny",
+  "img": "https://png.pngtree.com/png-vector/20210706/ourlarge/pngtree-blank-whatsapp-bussiness-man-photo-profile-png-image_3562846.jpg",
+  "notifications": [
+    {
+      "date": "2023-04-14T05:10:00Z",
+      "text": "Se ha realizado una compra en Bembos por $40.000. Si no lo has realizado llamar 23220012",
+      "isRead": false
+    },
+    {
+      "date": "2023-03-14T08:30:00Z",
+      "text": "Se ha realizado una compra en Bembos por $40.000. Si no lo has realizado llamar 23220012",
+      "isRead": true
+    },
+    {
+      "date": "2023-03-24T08:10:00Z",
+      "text": "Se ha realizado una compra en Bembos por $40.000. Si no lo has realizado llamar 23220012",
+      "isRead": false
+    }
+  ]
+}
