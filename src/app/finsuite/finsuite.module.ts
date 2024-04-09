@@ -5,7 +5,7 @@ import { MatExpansionModule } from '@angular/material/expansion';
 import { TranslateModule, TranslateService } from '@ngx-translate/core';
 import { SharedModule } from '../shared/shared.module';
 import { FinsuiteRoutingModule } from './finsuite-routing.module';
-import { HomeComponent } from './views/home/home.component';
+import { ViewsComponent } from './views/views-general/views.component';
 import { CarouselModule } from 'primeng/carousel';
 import { MatTreeModule } from '@angular/material/tree';
 import { MatSnackBarModule } from '@angular/material/snack-bar';
@@ -32,16 +32,24 @@ import { ModalComponent } from './components/modal/modal.component';
 import { CardComponent } from './components/card/card.component';
 import { ColumnsComponent } from './components/columns/columns.component';
 import { AccordionComponent } from './components/accordion/accordion.component';
+import { ServiceComponent } from './components/service/service.component';
+import { HomeComponent } from './components/home/home.component';
+import { ContactComponent } from './components/contact/contact.component';
+import { CompanyComponent } from './components/company/company.component';
 
 @NgModule({
   declarations: [
     NavbarComponent,
-    HomeComponent,
+    ViewsComponent,
     SidebarComponent,
     ModalComponent,
     CardComponent,
     ColumnsComponent,
     AccordionComponent,
+    ServiceComponent,
+    HomeComponent,
+    ContactComponent,
+    CompanyComponent,
   ],
   imports: [
     MatSnackBarModule,
