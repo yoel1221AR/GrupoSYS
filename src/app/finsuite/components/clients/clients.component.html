@@ -1,0 +1,30 @@
+<div class="container">
+  <div class="d-flex flex-column align-items-center justify-content-center">
+    <h4 class="p-5">Nuestros clientes</h4>
+    <div class="break"></div>
+  </div>
+</div>
+<div class="container py-5">
+  <p-carousel
+    [value]="clients"
+    [numVisible]="3"
+    [numScroll]="1"
+    [responsiveOptions]="responsiveOptions"
+    [autoplayInterval]="5000"
+    [showIndicators]="false"
+    [circular]="true"
+  >
+    <ng-template let-item pTemplate="item">
+      <img
+        style="
+          object-fit: cover;
+          margin-left: 1.5rem;
+          height: 5rem;
+          width: auto;
+        "
+        [src]="item.image"
+        alt="hola"
+      />
+    </ng-template>
+  </p-carousel>
+</div>

@@ -1,16 +1,11 @@
 @import "src/app/fs-styles/variables/color.scss";
 @import "src/app/fs-styles/mixins/generalText.scss";
-.banner-color {
-  height: 7rem;
-  width: 100%;
-  background: linear-gradient(
-    to right,
-    rgba(#11558e, 1) 55%,
-    rgba(72, 159, 151, 1)
-  );
-}
-
 h4 {
+  color: $secondary !important;
   text-transform: uppercase;
   @include titleSectionHome();
+}
+.break {
+  width: 100%;
+  border-bottom: 2px solid $white-1;
 }
