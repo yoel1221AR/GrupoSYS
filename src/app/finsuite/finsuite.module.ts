@@ -36,6 +36,7 @@ import { ServiceComponent } from './components/service/service.component';
 import { HomeComponent } from './components/home/home.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { CompanyComponent } from './components/company/company.component';
+import { ClientsComponent } from './components/clients/clients.component';
 
 @NgModule({
   declarations: [
@@ -50,6 +51,7 @@ import { CompanyComponent } from './components/company/company.component';
     HomeComponent,
     ContactComponent,
     CompanyComponent,
+    ClientsComponent,
   ],
   imports: [
     MatSnackBarModule,

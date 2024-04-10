@@ -2,59 +2,19 @@
 
 @import "src/app/fs-styles/variables/color.scss";
 
-/* Path text styles like: "Home", "Cards", etc*/
-@mixin titleSection() {
-  color: $title;
-  font-size: 1.125rem;
+@mixin titleNavbar() {
+  color: $primary !important;
+  font-size: 1rem;
   font-weight: 600;
 }
 
 @mixin titleSectionHome() {
-  @include titleSection();
-}
-
-@mixin titleRouteMobile() {
-  color: $title;
+  color: $white;
   font-size: 1.25rem;
   font-weight: 700;
 }
 
-@mixin titleRouteDesktop() {
-  color: $title;
-  font-size: 1.125rem;
-  font-weight: 600;
-}
-
-@mixin titleModal() {
-  color: $title;
-  font-size: 1.57rem;
-  font-weight: 500;
-}
-
-/* styles of text table */
-// Text of <th> (table header).
-@mixin tableHeaderText() {
-  text-transform: uppercase;
-  color: $th-title !important;
-  font-size: 0.75rem;
-  font-weight: 500;
-  line-height: 1.1rem;
-  .mat-sort-header-content,
-  .mat-sort-header-arrow {
-    color: $th-title;
-  }
-}
-
-// Primary text of <td> (table data)
-@mixin tdPrimaryText($fw: 500) {
-  color: $td-primary;
-  font-size: 0.9rem;
-  font-weight: $fw;
-}
-
-// Secondary text of <td> (table data)
-@mixin tdSecondaryText() {
-  color: $td-secondary;
-  font-size: 0.85rem;
-  font-weight: 400;
+@mixin textgeneral() {
+  color: $black-1;
+  font-size: 100%;
 }

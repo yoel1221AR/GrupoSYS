@@ -1,6 +1,6 @@
 @use "@angular/material" as mat;
 
-@import 'src/app/fs-styles/variables/color.scss';
+@import "src/app/fs-styles/variables/color.scss";
 @import "src/app/fs-styles/mixins/size.scss";
 
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
@@ -17,22 +17,22 @@ $finsuite-theme: mat.define-light-theme(
       primary: $finsuite-primary,
       accent: $finsuite-accent,
       warn: $finsuite-warn,
-      ),
-      )
-      );
-      
-      @include mat.all-component-themes($finsuite-theme);
-      
-      html,
-      body {
-        height: 100%;
-      }
-      
-      body, * {
-        margin: 0;
-        font-family: Inter, Roboto, "Helvetica Neue", sans-serif;
-      }
-      
+    ),
+  )
+);
+
+@include mat.all-component-themes($finsuite-theme);
+
+html,
+body {
+  height: 100%;
+}
+
+body,
+* {
+  margin: 0;
+  font-family: Inter, Roboto, "Helvetica Neue", sans-serif;
+}
 
 /* FADE ANIMATION */
 
@@ -87,7 +87,7 @@ ul {
   min-width: 100vw;
   min-height: 100vh;
   background-color: inherit;
-  
+
   .mat-mdc-dialog-container .mdc-dialog__surface {
     border-radius: 0 !important;
     background: #f9f9f9 !important;
@@ -104,14 +104,24 @@ ul {
   }
 }
 
-.disable{
-  opacity: .7;
+.disable {
+  opacity: 0.7;
 }
 
-h1, h2, h3, h4, h5, h6{
-  color: $black-2;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
 }
 
-p, b {
+p,
+b {
   color: $black-2;
+}
+.p-carousel-items-content {
+  overflow: hidden;
+  width: 100%;
 }

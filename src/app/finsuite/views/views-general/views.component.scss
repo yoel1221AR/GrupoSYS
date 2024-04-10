@@ -1,11 +1,5 @@
-#hola {
-  height: 100px;
-  transition: opacity 0.5s ease;
-}
-
-.hola-hide {
-  opacity: 0;
-}
+@import "src/app/fs-styles/variables/color.scss";
+@import "src/app/fs-styles/mixins/generalText.scss";
 
 #topbar {
   padding: 0;
@@ -71,4 +65,10 @@
 img {
   width: 8rem;
   height: 6rem;
+}
+
+.view {
+  &__title {
+    @include titleNavbar();
+  }
 }
