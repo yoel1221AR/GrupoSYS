@@ -72,8 +72,83 @@
       </div>
     </div>
   </div>
-  <div class="row w-100 justify-content-between">
-    <div class="col-md-5 p-3" style="background-color: #f4f4f4">
+
+  <div
+    class="d-lg-flex d-md-none"
+    style="display: flex; flex-direction: row; gap: 1.5rem"
+  >
+    <div style="width: 50%; background-color: #f4f4f4; padding: 1.5rem">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.768215239396!2d-58.53715478477087!3d-34.584730980464464!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb79efabc3e69%3A0x99db83335f115160!2sStocco%20Hermanos%20SA!5e0!3m2!1ses-419!2sar!4v1647957360824!5m2!1ses-419!2sar"
+        width="100%"
+        height="450"
+        allowfullscreen=""
+        loading="lazy"
+      ></iframe>
+    </div>
+    <div style="width: 50%; background-color: #f4f4f4; padding: 1.5rem">
+      <h1 class="title py-3">Formulario de contacto</h1>
+
+      <div class="contact-form redondeo">
+        <form id="miFormulario" action="enviar.php" method="POST">
+          <div>
+            <div class="form-group pb-3">
+              <input
+                type="text"
+                class="form-control"
+                name="name"
+                placeholder="Nombre"
+                required
+              />
+            </div>
+
+            <div class="form-group pb-3">
+              <input
+                type="email"
+                class="form-control"
+                name="email"
+                placeholder="Email"
+                required
+              />
+            </div>
+            <div class="form-group pb-3">
+              <input
+                type="text"
+                class="form-control"
+                name="phone"
+                placeholder="Teléfono"
+              />
+            </div>
+            <div class="form-group pb-3">
+              <textarea
+                class="form-control"
+                style="height: 150px; border: 1px solid #11558e"
+                placeholder="Mensaje"
+                name="message"
+                required
+              ></textarea>
+            </div>
+          </div>
+          <div class="row justify-content-center mt-4">
+            <div class="col-auto text-center recaptcha">
+              <!-- Aquí puedes agregar el código para el captcha si lo necesitas -->
+            </div>
+          </div>
+          <button
+            type="submit"
+            class="button button-send"
+            style="color: #ffffff; border: none"
+            name="submit"
+          >
+            Enviar
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <div class="row d-lg-none w-100 justify-content-between">
+    <div class="col-12 p-4 mb-3" style="background-color: #f4f4f4">
       <iframe
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.768215239396!2d-58.53715478477087!3d-34.584730980464464!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb79efabc3e69%3A0x99db83335f115160!2sStocco%20Hermanos%20SA!5e0!3m2!1ses-419!2sar!4v1647957360824!5m2!1ses-419!2sar"
         width="100%"
@@ -83,9 +158,9 @@
       ></iframe>
     </div>
 
-    <div class="col-md-5 p-3" style="background-color: #f4f4f4">
+    <div class="col-12 p-4" style="background-color: #f4f4f4">
       <div class="col-12">
-        <h1 class="title py-3">Formulario de contacto</h1>
+        <h1 class="title pb-3">Formulario de contacto</h1>
 
         <div class="contact-form redondeo">
           <form id="miFormulario" action="enviar.php" method="POST">
@@ -128,9 +203,7 @@
               </div>
             </div>
             <div class="row justify-content-center mt-4">
-              <div class="col-auto text-center recaptcha">
-                <!-- Aquí puedes agregar el código para el captcha si lo necesitas -->
-              </div>
+              <div class="col-auto text-center recaptcha"></div>
             </div>
             <button
               type="submit"

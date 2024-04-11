@@ -19,9 +19,7 @@ h3 {
   text-transform: uppercase;
   @include titleSectionHome();
 }
-h6 {
-  color: $secondary !important;
-}
+
 .description {
   @include textgeneral();
 }
