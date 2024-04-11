@@ -1,63 +1,5 @@
 <app-navbar></app-navbar>
 
-<!-- navbar -->
-
-<!-- <nav
-  class="navbar navbar-expand-lg bg-body-tertiary sticky-top d-flex justify-content-between"
->
-  <img class="img-fluid" src="assets/img/navbar/logo_gruposys.png" alt="" />
-
-  <div class="container-fluid">
-    <button
-      class="navbar-toggler"
-      type="button"
-      data-bs-toggle="collapse"
-      data-bs-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent"
-      aria-expanded="false"
-      aria-label="Toggle navigation"
-    >
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0 view__title">
-        <li class="nav-item">
-          <a
-            class="nav-link active view__title"
-            aria-current="page"
-            href="#home"
-            >Inicio</a
-          >
-        </li>
-        <li class="nav-item">
-          <a
-            class="nav-link active view__title"
-            aria-current="page"
-            href="#company"
-            >Empresa</a
-          >
-        </li>
-        <li class="nav-item">
-          <a
-            class="nav-link active view__title"
-            aria-current="page"
-            href="#service"
-            >Servicios</a
-          >
-        </li>
-
-        <li class="nav-item">
-          <a
-            class="nav-link active view__title"
-            aria-current="page"
-            href="#contact"
-            >Contacto</a
-          >
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav> -->
 <nav class="navbar navbar-expand-lg sticky-top" style="background: #ffffff">
   <div class="container py-4 d-flex justify-content-between align-items-center">
     <a class="navbar-brand" href="#">
@@ -82,31 +24,39 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
+          <li class="nav-item mx-3">
             <a
-              class="nav-link active view__title"
-              (click)="scrollToSection('home')"
+              class="nav-link view__title"
+              [ngClass]="{ active: activeLink === 'home' }"
+              (click)="activateLink('home'); scrollToSection('home')"
+              href="javascript:void(0)"
               >Inicio</a
             >
           </li>
-          <li class="nav-item">
+          <li class="nav-item mx-3">
             <a
-              class="nav-link active view__title"
-              (click)="scrollToSection('company')"
+              class="nav-link view__title"
+              [ngClass]="{ active: activeLink === 'company' }"
+              (click)="activateLink('company'); scrollToSection('company')"
+              href="javascript:void(0)"
               >Empresa</a
             >
           </li>
-          <li class="nav-item">
+          <li class="nav-item mx-3">
             <a
-              class="nav-link active view__title"
-              (click)="scrollToSection('service')"
+              class="nav-link view__title"
+              [ngClass]="{ active: activeLink === 'service' }"
+              (click)="activateLink('service'); scrollToSection('service')"
+              href="javascript:void(0)"
               >Servicios</a
             >
           </li>
-          <li class="nav-item">
+          <li class="nav-item mx-3">
             <a
-              class="nav-link active view__title"
-              (click)="scrollToSection('contact')"
+              class="nav-link view__title"
+              [ngClass]="{ active: activeLink === 'contact' }"
+              (click)="activateLink('contact'); scrollToSection('contact')"
+              href="javascript:void(0)"
               >Contacto</a
             >
           </li>
@@ -115,7 +65,6 @@
     </div>
   </div>
 </nav>
-
 <app-home id="home">Home</app-home>
 <app-clients></app-clients>
 

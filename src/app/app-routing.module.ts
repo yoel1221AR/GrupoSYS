@@ -12,11 +12,6 @@ const routes: Routes = [
     loadChildren: () =>
       import('./finsuite/finsuite.module').then((m) => m.FinsuiteModule),
   },
-
-  {
-    path: '**',
-    redirectTo: 'finsuite',
-  },
 ];
 
 @NgModule({

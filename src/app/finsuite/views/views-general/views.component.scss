@@ -72,3 +72,19 @@ img {
     @include titleNavbar();
   }
 }
+.nav-link.active::after {
+  content: "";
+  width: 5rem;
+  height: 0.5rem;
+  background: linear-gradient(
+    to right,
+    rgb(17, 85, 142) 55%,
+    rgb(72, 159, 151)
+  );
+  background-clip: padding-box, border-box;
+  display: block;
+  position: absolute;
+  bottom: -8px;
+  left: 50%;
+  transform: translateX(-50%);
+}
