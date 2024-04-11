@@ -1,45 +1,46 @@
-<ng-container>
-  <!--  <img
-    style="object-fit: cover; height: 38rem; width: 100%"
-    src="assets/img/home/logo-home.jpg"
-    alt=""
-  /> -->
-
-  <div id="banners" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-inner">
-      <div
-        *ngFor="let banner of banners; let i = index"
-        class="carousel-item"
-        [class.active]="i === 0"
-      >
-        <img
-          style="object-fit: cover; height: 38rem; width: 100%"
-          src="{{ banner.img }}"
-          alt=""
-        />
-      </div>
+<div id="banners" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div
+      *ngFor="let banner of banners; let i = index"
+      class="carousel-item"
+      [class.active]="i === 0"
+    >
+      <img
+        style="object-fit: cover; height: 38rem; width: 100%"
+        src="{{ banner.img }}"
+        alt=""
+      />
     </div>
+  </div>
 
-    <button
-      class="carousel-control-prev"
-      type="button"
+  <ol class="carousel-indicators">
+    <li
+      *ngFor="let banner of banners; let i = index"
       data-bs-target="#banners"
-      data-bs-slide="prev"
-    >
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button
-      class="carousel-control-next"
-      type="button"
-      data-bs-target="#banners"
-      data-bs-slide="next"
-    >
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-  </div>
-  <div class="banner-color d-flex align-items-center justify-content-center">
-    <h4>Titulo descriptivo con info corta</h4>
-  </div>
-</ng-container>
+      [attr.data-bs-slide-to]="i"
+      [class.active]="i === 0"
+    ></li>
+  </ol>
+
+  <button
+    class="carousel-control-prev"
+    type="button"
+    data-bs-target="#banners"
+    data-bs-slide="prev"
+  >
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button
+    class="carousel-control-next"
+    type="button"
+    data-bs-target="#banners"
+    data-bs-slide="next"
+  >
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<div class="banner-color d-flex align-items-center justify-content-center">
+  <h4>Titulo descriptivo con info corta</h4>
+</div>

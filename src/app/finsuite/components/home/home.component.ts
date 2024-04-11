@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 export class HomeComponent {
   banners: any[] = [
     {
-      img: 'assets/img/services/tanks/tank-1.jpg',
+      img: 'assets/img/services/tanks/tanque-1.webp',
     },
     {
       img: 'assets/img/services/tanks/tank-2.jpg',

@@ -1,70 +1,159 @@
-<app-navbar></app-navbar>
+<app-navbar class="d-none d-lg-block"></app-navbar>
 
-<nav class="navbar navbar-expand-lg sticky-top" style="background: #ffffff">
+<nav
+  class="navbar navbar-expand-lg"
+  [ngClass]="{ sticky: isSticky }"
+  style="background: #ffffff"
+>
   <div class="container py-4 d-flex justify-content-between align-items-center">
     <a class="navbar-brand" href="#">
       <img
         style="width: 17.5rem; height: 3.5rem"
         class="img-fluid"
-        src="assets/img/navbar/logo_gruposys.png"
+        src="assets/img/navbar/logo_gruposys.webp"
         alt=""
       />
     </a>
-    <div>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-bs-toggle="collapse"
-        data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item mx-3">
-            <a
-              class="nav-link view__title"
-              [ngClass]="{ active: activeLink === 'home' }"
-              (click)="activateLink('home'); scrollToSection('home')"
-              href="javascript:void(0)"
-              >Inicio</a
-            >
-          </li>
-          <li class="nav-item mx-3">
-            <a
-              class="nav-link view__title"
-              [ngClass]="{ active: activeLink === 'company' }"
-              (click)="activateLink('company'); scrollToSection('company')"
-              href="javascript:void(0)"
-              >Empresa</a
-            >
-          </li>
-          <li class="nav-item mx-3">
-            <a
-              class="nav-link view__title"
-              [ngClass]="{ active: activeLink === 'service' }"
-              (click)="activateLink('service'); scrollToSection('service')"
-              href="javascript:void(0)"
-              >Servicios</a
-            >
-          </li>
-          <li class="nav-item mx-3">
-            <a
-              class="nav-link view__title"
-              [ngClass]="{ active: activeLink === 'contact' }"
-              (click)="activateLink('contact'); scrollToSection('contact')"
-              href="javascript:void(0)"
-              >Contacto</a
-            >
-          </li>
-        </ul>
-      </div>
+    <!-- Mostrar los enlaces de navegación directamente en la barra de navegación -->
+    <div class="d-none d-lg-block">
+      <ul class="navbar-nav">
+        <li class="nav-item mx-3">
+          <a
+            class="nav-link view__title"
+            [ngClass]="{ active: activeLink === 'home' }"
+            (click)="activateLink('home'); scrollToSection('home')"
+            href="javascript:void(0)"
+            >Inicio</a
+          >
+        </li>
+        <li class="nav-item mx-3">
+          <a
+            class="nav-link view__title"
+            [ngClass]="{ active: activeLink === 'company' }"
+            (click)="activateLink('company'); scrollToSection('company')"
+            href="javascript:void(0)"
+            >Empresa</a
+          >
+        </li>
+        <li class="nav-item mx-3">
+          <a
+            class="nav-link view__title"
+            [ngClass]="{ active: activeLink === 'service' }"
+            (click)="activateLink('service'); scrollToSection('service')"
+            href="javascript:void(0)"
+            >Servicios</a
+          >
+        </li>
+        <li class="nav-item mx-3">
+          <a
+            class="nav-link view__title"
+            [ngClass]="{ active: activeLink === 'contact' }"
+            (click)="activateLink('contact'); scrollToSection('contact')"
+            href="javascript:void(0)"
+            >Contacto</a
+          >
+        </li>
+      </ul>
     </div>
+    <!-- Botón de menú desplegable para pantallas medianas (md) -->
+    <button
+      class="navbar-toggler d-lg-none"
+      type="button"
+      data-bs-toggle="offcanvas"
+      data-bs-target="#offcanvasRight"
+      aria-controls="offcanvasRight"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
   </div>
 </nav>
+
+<!-- Menú desplegable para pantallas medianas (md) -->
+<div
+  class="offcanvas offcanvas-end"
+  tabindex="-1"
+  id="offcanvasRight"
+  aria-labelledby="offcanvasRightLabel"
+>
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="offcanvasRightLabel"></h5>
+    <button
+      type="button"
+      class="btn-close text-reset"
+      data-bs-dismiss="offcanvas"
+      aria-label="Close"
+    ></button>
+  </div>
+  <div class="offcanvas-body">
+    <ul class="navbar-nav">
+      <li class="nav-item mx-3">
+        <a
+          class="nav-link view__title"
+          [ngClass]="{ active: activeLink === 'home' }"
+          (click)="activateLink('home'); scrollToSection('home')"
+          href="javascript:void(0)"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+          >Inicio</a
+        >
+      </li>
+      <li class="nav-item mx-3">
+        <a
+          class="nav-link view__title"
+          [ngClass]="{ active: activeLink === 'company' }"
+          (click)="activateLink('company'); scrollToSection('company')"
+          href="javascript:void(0)"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+          >Empresa</a
+        >
+      </li>
+      <li class="nav-item mx-3">
+        <a
+          class="nav-link view__title"
+          [ngClass]="{ active: activeLink === 'service' }"
+          (click)="activateLink('service'); scrollToSection('service')"
+          href="javascript:void(0)"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+          >Servicios</a
+        >
+      </li>
+      <li class="nav-item mx-3">
+        <a
+          class="nav-link view__title"
+          [ngClass]="{ active: activeLink === 'contact' }"
+          (click)="activateLink('contact'); scrollToSection('contact')"
+          href="javascript:void(0)"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+          >Contacto</a
+        >
+      </li>
+    </ul>
+    <ul>
+      <div class="d-flex align-items-center m-3">
+        <img src="assets/icons/top-nav/phone.png" alt="" />
+        <h6 class="ml-2">+54 (011) 4755-5661</h6>
+      </div>
+      <div class="break"></div>
+      <div class="d-flex align-items-center m-3">
+        <img src="assets/icons/top-nav/wpp.png" alt="" />
+        <h6 class="ml-2">+54 (011) 6067-9229</h6>
+      </div>
+      <div class="break"></div>
+      <div class="d-flex align-items-center m-3">
+        <img src="assets/icons/top-nav/email.png" alt="" />
+        <h6 class="ml-2">info@stoccohnos.com.ar</h6>
+      </div>
+      <div class="break"></div>
+      <div class="d-flex align-items-center m-3">
+        <img src="assets/icons/top-nav/ubication.png" alt="" />
+        <h6>Hipólito Irigoyen 4140, San Martín, Prov. de Bs. As, Argentina</h6>
+      </div>
+    </ul>
+  </div>
+</div>
 <app-home id="home">Home</app-home>
 <app-clients></app-clients>
 

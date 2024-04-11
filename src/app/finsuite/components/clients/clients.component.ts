@@ -9,28 +9,28 @@ export class ClientsComponent {
   responsiveOptions: any[] = [];
   clients: any[] = [
     {
-      image: 'assets/img/clients/Logo-1.png',
+      image: 'assets/img/clients/Logo-1.webp',
     },
     {
-      image: 'assets/img/clients/Logo-2.png',
+      image: 'assets/img/clients/Logo-2.webp',
     },
     {
-      image: 'assets/img/clients/Logo-3.png',
+      image: 'assets/img/clients/Logo-3.webp',
     },
     {
-      image: 'assets/img/clients/Logo-4.png',
+      image: 'assets/img/clients/Logo-4.webp',
     },
     {
-      image: 'assets/img/clients/Logo-5.png',
+      image: 'assets/img/clients/Logo-5.webp',
     },
     {
-      image: 'assets/img/clients/Logo-6.png',
+      image: 'assets/img/clients/Logo-6.webp',
     },
     {
-      image: 'assets/img/clients/Logo-7.png',
+      image: 'assets/img/clients/Logo-7.webp',
     },
     {
-      image: 'assets/img/clients/Logo-8.png',
+      image: 'assets/img/clients/Logo-8.webp',
     },
   ];
   constructor() {

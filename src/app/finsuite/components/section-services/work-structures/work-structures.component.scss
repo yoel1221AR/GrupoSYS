@@ -8,3 +8,8 @@ h3 {
   color: $secondary !important;
   @include titleSectionHome();
 }
+
+.modal {
+  --bs-modal-margin: 1.75rem;
+  --bs-modal-box-shadow: 0 0.5rem 1rem hsla(240, 7%, 62%, 1);
+}
