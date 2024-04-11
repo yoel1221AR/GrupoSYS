@@ -1,0 +1,10 @@
+@import "src/app/fs-styles/variables/color.scss";
+@import "src/app/fs-styles/mixins/generalText.scss";
+.bg-banner {
+  background-color: #dbe1e6;
+}
+
+h3 {
+  color: $secondary !important;
+  @include titleSectionHome();
+}

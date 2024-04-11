@@ -1,0 +1,154 @@
+<div class="bg-banner">
+  <div class="container py-5">
+    <div
+      class="d-flex flex-column justify-content-center align-items-center pb-5"
+    >
+      <img
+        class="my-4"
+        style="height: 4.5rem; width: auto"
+        src="assets/img/services/recurso-2.png"
+        alt=""
+      />
+
+      <h3>Mantenimiento y Parada de plantas</h3>
+    </div>
+    <p-carousel
+      [value]="images"
+      [numVisible]="3"
+      [numScroll]="1"
+      [responsiveOptions]="responsiveOptions"
+      [showIndicators]="false"
+      [circular]="true"
+    >
+      <ng-template let-item pTemplate="item">
+        <a
+          href="#carouselModalPlantMaintenance"
+          data-bs-toggle="modal"
+          data-bs-target="#carouselModalPlantMaintenance"
+        >
+          <img
+            class="px-3"
+            src="{{ item.image }}"
+            style="width: 100%; height: 300px"
+          />
+        </a>
+      </ng-template>
+    </p-carousel>
+  </div>
+</div>
+<div
+  class="modal fade"
+  id="carouselModalPlantMaintenance"
+  tabindex="-1"
+  role="dialog"
+  aria-labelledby="carouselModalPlantMaintenanceLabel"
+  aria-hidden="true"
+>
+  <div class="d-flex flex-column modal-dialog modal-dialog-centered modal-lg">
+    <h3 style="font-size: 1.5rem; background: none">
+      Mantenimiento y Parada de plantas
+    </h3>
+    <div class="modal-content">
+      <div class="modal-body p-0">
+        <div
+          id="carouselPlantMaintenance"
+          class="carousel slide carousel-fade"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="assets/img/services/plant-maintenance/maintenance-1.jpg"
+                style="
+                  height: 50rem;
+                  width: 50rem;
+                  object-fit: cover;
+                  object-position: center;
+                "
+                alt="Imagen 1"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="assets/img/services/plant-maintenance/maintenance-2.jpg"
+                style="
+                  height: 50rem;
+                  width: 50rem;
+                  object-fit: cover;
+                  object-position: center;
+                "
+                alt="Imagen 2"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="assets/img/services/plant-maintenance/maintenance-3.jpg"
+                style="
+                  height: 50rem;
+                  width: 50rem;
+                  object-fit: cover;
+                  object-position: center;
+                "
+                alt="Imagen 2"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="assets/img/services/plant-maintenance/maintenance-4.jpg"
+                style="
+                  height: 50rem;
+                  width: 50rem;
+                  object-fit: cover;
+                  object-position: center;
+                "
+                alt="Imagen 2"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="assets/img/services/plant-maintenance/maintenance-5.jpg"
+                style="
+                  height: 50rem;
+                  width: 50rem;
+                  object-fit: cover;
+                  object-position: center;
+                "
+                alt="Imagen 2"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="assets/img/services/plant-maintenance/maintenance-6.jpeg"
+                style="
+                  height: 50rem;
+                  width: 50rem;
+                  object-fit: cover;
+                  object-position: center;
+                "
+                alt="Imagen 2"
+              />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselPlantMaintenance"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselPlantMaintenance"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

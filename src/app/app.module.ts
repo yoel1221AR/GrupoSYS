@@ -7,6 +7,7 @@ import { SharedModule } from './shared/shared.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HttpClientModule } from '@angular/common/http';
 import { NavbarComponent } from './finsuite/components/navbar/navbar.component';
+import { ContactComponent } from './finsuite/components/contact/contact.component';
 
 @NgModule({
   declarations: [AppComponent],
@@ -17,24 +18,7 @@ import { NavbarComponent } from './finsuite/components/navbar/navbar.component';
     SharedModule,
     BrowserAnimationsModule,
   ],
-  providers: [
-    CookieService,
-    /*  {
-      provide: HTTP_INTERCEPTORS,
-      useClass: AuthInterceptor,
-      multi: true,
-    },
-    {
-      provide: HTTP_INTERCEPTORS,
-      useClass: LoadingInterceptor,
-      multi: true,
-    }, */
-    // {
-    //   provide: HTTP_INTERCEPTORS,
-    //   useClass: TimeOutInterceptor,
-    //   multi: true,
-    // },
-  ],
+  providers: [CookieService],
   bootstrap: [AppComponent],
 })
 export class AppModule {}

@@ -37,6 +37,12 @@ import { HomeComponent } from './components/home/home.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { CompanyComponent } from './components/company/company.component';
 import { ClientsComponent } from './components/clients/clients.component';
+import { FooterComponent } from './components/footer/footer.component';
+import { SectionConstructionComponent } from './components/section-services/section-construction/section-construction.component';
+import { PlantMaintenanceComponent } from './components/section-services/plant-maintenance/plant-maintenance.component';
+import { TanksComponent } from './components/section-services/tanks/tanks.component';
+import { WorkStructuresComponent } from './components/section-services/work-structures/work-structures.component';
+import { CivilWorkComponent } from './components/section-services/civil-work/civil-work.component';
 
 @NgModule({
   declarations: [
@@ -52,6 +58,12 @@ import { ClientsComponent } from './components/clients/clients.component';
     ContactComponent,
     CompanyComponent,
     ClientsComponent,
+    FooterComponent,
+    SectionConstructionComponent,
+    PlantMaintenanceComponent,
+    TanksComponent,
+    WorkStructuresComponent,
+    CivilWorkComponent,
   ],
   imports: [
     MatSnackBarModule,

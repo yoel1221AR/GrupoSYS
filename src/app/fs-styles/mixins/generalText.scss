@@ -1,5 +1,3 @@
-/* This file is only for general text style mixins */
-
 @import "src/app/fs-styles/variables/color.scss";
 
 @mixin titleNavbar() {
@@ -17,4 +15,10 @@
 @mixin textgeneral() {
   color: $black-1;
   font-size: 100%;
+}
+
+@mixin titleContact() {
+  color: $primary !important;
+  font-size: 1rem;
+  font-weight: 600;
 }
