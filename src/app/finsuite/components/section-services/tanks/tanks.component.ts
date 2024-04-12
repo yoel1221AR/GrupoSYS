@@ -9,34 +9,34 @@ export class TanksComponent {
   responsiveOptions: any[] = [];
   images: any[] = [
     {
-      image: 'assets/img/services/tanks/tank-1.jpg',
+      image: 'assets/img/services/tanks/tank-1.webp',
     },
     {
-      image: 'assets/img/services/tanks/tank-2.jpg',
+      image: 'assets/img/services/tanks/tank-2.webp',
     },
     {
-      image: 'assets/img/services/tanks/tank-3.jpg',
+      image: 'assets/img/services/tanks/tank-3.webp',
     },
     {
-      image: 'assets/img/services/tanks/tank-4.jpg',
+      image: 'assets/img/services/tanks/tank-4.webp',
     },
     {
-      image: 'assets/img/services/tanks/tank-5.jpg',
+      image: 'assets/img/services/tanks/tank-5.webp',
     },
     {
-      image: 'assets/img/services/tanks/tank-6.jpg',
+      image: 'assets/img/services/tanks/tank-6.webp',
     },
     {
-      image: 'assets/img/services/tanks/tank-7.jpg',
+      image: 'assets/img/services/tanks/tank-7.webp',
     },
     {
-      image: 'assets/img/services/tanks/tank-8.jpg',
+      image: 'assets/img/services/tanks/tank-8.webp',
     },
     {
-      image: 'assets/img/services/tanks/tank-9.jpg',
+      image: 'assets/img/services/tanks/tank-9.webp',
     },
     {
-      image: 'assets/img/services/tanks/tank-10.jpg',
+      image: 'assets/img/services/tanks/tank-10.webp',
     },
     {
       image: 'assets/img/services/tanks/tank-11.jpeg',

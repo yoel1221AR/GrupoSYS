@@ -4,11 +4,11 @@ import { RouterModule, Routes } from '@angular/router';
 const routes: Routes = [
   {
     path: '',
-    redirectTo: 'finsuite',
+    redirectTo: '',
     pathMatch: 'full',
   },
   {
-    path: 'finsuite',
+    path: '',
     loadChildren: () =>
       import('./finsuite/finsuite.module').then((m) => m.FinsuiteModule),
   },

@@ -9,7 +9,7 @@ export class CivilWorkComponent {
   responsiveOptions: any[] = [];
   images: any[] = [
     {
-      image: 'assets/img/services/civil-work/obra-1.jpg',
+      image: 'assets/img/services/civil-work/obra-1.webp',
     },
   ];
   constructor() {

@@ -9,22 +9,22 @@ export class PlantMaintenanceComponent {
   responsiveOptions: any[] = [];
   images: any[] = [
     {
-      image: 'assets/img/services/plant-maintenance/maintenance-1.jpg',
+      image: 'assets/img/services/plant-maintenance/maintenance-1.webp',
     },
     {
-      image: 'assets/img/services/plant-maintenance/maintenance-2.jpg',
+      image: 'assets/img/services/plant-maintenance/maintenance-2.webp',
     },
     {
-      image: 'assets/img/services/plant-maintenance/maintenance-3.jpg',
+      image: 'assets/img/services/plant-maintenance/maintenance-3.webp',
     },
     {
-      image: 'assets/img/services/plant-maintenance/maintenance-4.jpg',
+      image: 'assets/img/services/plant-maintenance/maintenance-4.webp',
     },
     {
-      image: 'assets/img/services/plant-maintenance/maintenance-5.jpg',
+      image: 'assets/img/services/plant-maintenance/maintenance-5.webp',
     },
     {
-      image: 'assets/img/services/plant-maintenance/maintenance-6.jpeg',
+      image: 'assets/img/services/plant-maintenance/maintenance-6.webp',
     },
   ];
   constructor() {

@@ -8,28 +8,28 @@ import { Component } from '@angular/core';
 export class HomeComponent {
   banners: any[] = [
     {
-      img: 'assets/img/services/tanks/tanque-1.webp',
+      img: 'assets/img/services/tanks/tank-1.webp',
     },
     {
-      img: 'assets/img/services/tanks/tank-2.jpg',
+      img: 'assets/img/services/tanks/tank-2.webp',
     },
     {
-      img: 'assets/img/services/tanks/tank-3.jpg',
+      img: 'assets/img/services/tanks/tank-3.webp',
     },
     {
-      img: 'assets/img/services/tanks/tank-4.jpg',
+      img: 'assets/img/services/tanks/tank-4.webp',
     },
     {
-      img: 'assets/img/services/tanks/tank-5.jpg',
+      img: 'assets/img/services/tanks/tank-5.webp',
     },
     {
-      img: 'assets/img/services/tanks/tank-6.jpg',
+      img: 'assets/img/services/tanks/tank-6.webp',
     },
     {
-      img: 'assets/img/services/tanks/tank-7.jpg',
+      img: 'assets/img/services/tanks/tank-7.webp',
     },
     {
-      img: 'assets/img/services/tanks/tank-8.jpg',
+      img: 'assets/img/services/tanks/tank-8.webp',
     },
   ];
 }

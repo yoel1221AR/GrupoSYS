@@ -9,16 +9,16 @@ export class WorkStructuresComponent {
   responsiveOptions: any[] = [];
   images: any[] = [
     {
-      image: 'assets/img/services/work-structures/structure-1.jpg',
+      image: 'assets/img/services/work-structures/structure-1.webp',
     },
     {
-      image: 'assets/img/services/work-structures/structure-2.jpg',
+      image: 'assets/img/services/work-structures/structure-2.webp',
     },
     {
-      image: 'assets/img/services/work-structures/structure-3.jpg',
+      image: 'assets/img/services/work-structures/structure-3.webp',
     },
     {
-      image: 'assets/img/services/work-structures/structure-4.jpeg',
+      image: 'assets/img/services/work-structures/structure-4.webp',
     },
   ];
   constructor() {
