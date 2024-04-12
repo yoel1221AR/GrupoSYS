@@ -19,7 +19,6 @@ import { MatSelectModule } from '@angular/material/select';
 import { GalleriaModule } from 'primeng/galleria';
 import { MatTooltipModule } from '@angular/material/tooltip';
 import { NavbarComponent } from './components/navbar/navbar.component';
-import { SidebarComponent } from './components/sidebar/sidebar.component';
 import { ServiceComponent } from './components/service/service.component';
 import { HomeComponent } from './components/home/home.component';
 import { ContactComponent } from './components/contact/contact.component';
@@ -36,7 +35,6 @@ import { CivilWorkComponent } from './components/section-services/civil-work/civ
   declarations: [
     NavbarComponent,
     ViewsComponent,
-    SidebarComponent,
     ServiceComponent,
     HomeComponent,
     ContactComponent,
