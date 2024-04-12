@@ -39,7 +39,7 @@ export class TanksComponent {
       image: 'assets/img/services/tanks/tank-10.webp',
     },
     {
-      image: 'assets/img/services/tanks/tank-11.jpeg',
+      image: 'assets/img/services/tanks/tank-11.webp',
     },
   ];
   constructor() {

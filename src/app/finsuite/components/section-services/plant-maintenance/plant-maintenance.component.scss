@@ -8,3 +8,6 @@ h3 {
   color: $secondary !important;
   @include titleSectionHome();
 }
+h4 {
+  color: $white;
+}
