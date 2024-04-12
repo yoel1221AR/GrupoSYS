@@ -1,9 +1,0 @@
-{
-  "hosting": [
-    {
-      "target": "finsuite",
-      "source": ".",
-      "frameworksBackend": {}
-    }
-  ]
-}
