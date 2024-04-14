@@ -9,8 +9,12 @@ h3 {
   @include titleSectionHome();
 }
 h4 {
+  background: none;
+  text-transform: uppercase;
+  font-size: 2rem;
   color: $white;
 }
+
 .modal {
   --bs-modal-margin: 1.75rem;
   --bs-modal-box-shadow: 0 0.5rem 1rem hsla(240, 7%, 62%, 1);

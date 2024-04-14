@@ -9,5 +9,8 @@ h3 {
   @include titleSectionHome();
 }
 h4 {
+  background: none;
+  text-transform: uppercase;
+  font-size: 2rem;
   color: $white;
 }
