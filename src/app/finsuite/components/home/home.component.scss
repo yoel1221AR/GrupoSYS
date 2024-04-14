@@ -40,3 +40,18 @@ h4 {
 #banners ol.carousel-indicators li.active {
   background-color: #ffffff; /* Color de fondo activo */
 }
+.carousel-control-prev-icon {
+  background-image: url("/assets/icons/arrows/arrow-left.svg");
+}
+.carousel-control-next-icon {
+  background-image: url("/assets/icons/arrows/arrow-right.svg");
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  height: 3.5rem;
+  width: 1.5rem;
+  color: #000000 !important;
+  border-radius: 50%;
+  transition: background-color 0.2s, color 0.2s, box-shadow 0.2s;
+}
