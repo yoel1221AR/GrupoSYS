@@ -38,7 +38,7 @@ export class HomeComponent {
       img: 'assets/img/services/tanks/tank-10.webp',
     },
     {
-      img: 'assets/img/services/tanks/tank-10.webp',
+      img: 'assets/img/services/tanks/tank-11.webp',
     },
   ];
 }

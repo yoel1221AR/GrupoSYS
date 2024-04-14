@@ -1,10 +1,10 @@
 <div class="bg-banner">
-  <div class="container py-lg-5 py-sm-3">
+  <div class="container py-4">
     <div
       class="d-flex flex-column justify-content-center align-items-center pb-lg-5 pb-sm-3"
     >
       <img
-        class="my-4"
+        class="mb-4"
         style="
           height: 4.5rem;
           width: auto;
@@ -18,6 +18,7 @@
       <h3>Herreria de obra</h3>
     </div>
     <p-carousel
+      #carousel
       [value]="images"
       [numVisible]="3"
       [numScroll]="1"
@@ -25,177 +26,86 @@
       [showIndicators]="false"
       [circular]="true"
     >
-      <ng-template let-item pTemplate="item">
+      <ng-template let-image let-i="index" pTemplate="item">
         <a
-          href="#carouselModal"
+          href="#"
+          (click)="openModal(image.id)"
           data-bs-toggle="modal"
-          data-bs-target="#carouselModal"
+          data-bs-target="#carouselConstruction"
         >
           <img
             class="px-3"
-            src="{{ item.image }}"
-            style="width: 100%; height: 300px"
+            [src]="image.image"
+            style="
+              width: 100%;
+              height: 300px;
+              object-fit: cover;
+              object-position: center;
+            "
+            [class.active]="i === selectedIndex"
+            alt="Selected Image"
           />
         </a>
       </ng-template>
     </p-carousel>
   </div>
 </div>
+<!-- Modal -->
 <div
   class="modal fade"
-  id="carouselModal"
+  id="carouselConstruction"
   tabindex="-1"
   role="dialog"
-  aria-labelledby="carouselModalLabel"
+  aria-labelledby="carouselModalConstructionLabel"
   aria-hidden="true"
 >
-  <div class="d-flex flex-column modal-dialog modal-dialog-centered modal-lg">
-    <h4 style="font-size: 1.5rem; background: none">Herreria de obra</h4>
+  <div class="modal-dialog modal-dialog-centered modal-lg">
     <div class="modal-content">
       <div class="modal-body p-0">
         <div
-          id="carouselExampleFade"
+          id="carouselSectionConstruction"
           class="carousel slide carousel-fade"
           data-bs-ride="carousel"
         >
           <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img
-                src="assets/img/services/work-blacksmith/herreria-1.webp"
-                style="
-                  height: 50rem;
-                  width: 50rem;
-                  object-fit: cover;
-                  object-position: center;
-                "
-                alt="Imagen 1"
-              />
-            </div>
-            <div class="carousel-item">
-              <img
-                src="assets/img/services/work-blacksmith/herreria-2.webp"
-                style="
-                  height: 50rem;
-                  width: 50rem;
-                  object-fit: cover;
-                  object-position: center;
-                "
-                alt="Imagen 2"
-              />
-            </div>
-            <div class="carousel-item">
-              <img
-                src="assets/img/services/work-blacksmith/herreria-3.webp"
-                style="
-                  height: 50rem;
-                  width: 50rem;
-                  object-fit: cover;
-                  object-position: center;
-                "
-                alt="Imagen 2"
-              />
-            </div>
-            <div class="carousel-item">
-              <img
-                src="assets/img/services/work-blacksmith/herreria-4.webp"
-                style="
-                  height: 50rem;
-                  width: 50rem;
-                  object-fit: cover;
-                  object-position: center;
-                "
-                alt="Imagen 2"
-              />
-            </div>
-            <div class="carousel-item">
-              <img
-                src="assets/img/services/work-blacksmith/herreria-5.webp"
-                style="
-                  height: 50rem;
-                  width: 50rem;
-                  object-fit: cover;
-                  object-position: center;
-                "
-                alt="Imagen 2"
-              />
-            </div>
-            <div class="carousel-item">
-              <img
-                src="assets/img/services/work-blacksmith/herreria-6.webp"
-                style="
-                  height: 50rem;
-                  width: 50rem;
-                  object-fit: cover;
-                  object-position: center;
-                "
-                alt="Imagen 2"
-              />
-            </div>
-            <div class="carousel-item">
-              <img
-                src="assets/img/services/work-blacksmith/herreria-7.webp"
-                style="
-                  height: 50rem;
-                  width: 50rem;
-                  object-fit: cover;
-                  object-position: center;
-                "
-                alt="Imagen 2"
-              />
-            </div>
-            <div class="carousel-item">
-              <img
-                src="assets/img/services/work-blacksmith/herreria-8.webp"
-                style="
-                  height: 50rem;
-                  width: 50rem;
-                  object-fit: cover;
-                  object-position: center;
-                "
-                alt="Imagen 2"
-              />
-            </div>
-            <div class="carousel-item">
-              <img
-                src="assets/img/services/work-blacksmith/herreria-9.webp"
-                style="
-                  height: 50rem;
-                  width: 50rem;
-                  object-fit: cover;
-                  object-position: center;
-                "
-                alt="Imagen 2"
-              />
-            </div>
-            <div class="carousel-item">
-              <img
-                src="assets/img/services/work-blacksmith/herreria-10.webp"
-                style="
-                  height: 50rem;
-                  width: 50rem;
-                  object-fit: cover;
-                  object-position: center;
-                "
-                alt="Imagen 2"
-              />
-            </div>
-            <div class="carousel-item">
-              <img
-                src="assets/img/services/work-blacksmith/herreria-11.webp"
-                style="
-                  height: 50rem;
-                  width: 50rem;
-                  object-fit: cover;
-                  object-position: center;
-                "
-                alt="Imagen 2"
-              />
+            <div
+              class="carousel-item"
+              *ngFor="let image of images; let i = index"
+              [class.active]="i === selectedIndex"
+            >
+              <!-- Imagen para pantallas grandes (lg) -->
+              <div class="d-none d-sm-block">
+                <img
+                  [src]="image.image"
+                  style="
+                    width: 50rem;
+                    height: 40rem;
+                    object-fit: cover;
+                    object-position: center;
+                  "
+                  alt="Construction Image"
+                />
+              </div>
+
+              <!-- Imagen para pantallas pequeñas (sm) -->
+              <div class="d-block d-sm-none">
+                <img
+                  [src]="image.image"
+                  style="
+                    width: 100%;
+                    height: 25rem;
+                    object-fit: cover;
+                    object-position: center;
+                  "
+                  alt="Construction Image"
+                />
+              </div>
             </div>
           </div>
           <button
             class="carousel-control-prev"
             type="button"
-            data-bs-target="#carouselExampleFade"
+            data-bs-target="#carouselSectionConstruction"
             data-bs-slide="prev"
           >
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -204,7 +114,7 @@
           <button
             class="carousel-control-next"
             type="button"
-            data-bs-target="#carouselExampleFade"
+            data-bs-target="#carouselSectionConstruction"
             data-bs-slide="next"
           >
             <span class="carousel-control-next-icon" aria-hidden="true"></span>

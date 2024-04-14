@@ -14,11 +14,9 @@ h4 {
 
 ::ng-deep .p-carousel .p-carousel-content .p-carousel-next,
 ::ng-deep .p-carousel .p-carousel-content .p-carousel-prev {
-  width: 3.5rem;
   height: 3.5rem;
   color: #000000 !important;
   background: transparent;
   border-radius: 50%;
   transition: background-color 0.2s, color 0.2s, box-shadow 0.2s;
-  margin: 0.5rem;
 }
