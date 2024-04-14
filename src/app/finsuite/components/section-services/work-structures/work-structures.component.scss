@@ -12,10 +12,22 @@ h4 {
   background: none;
   text-transform: uppercase;
   font-size: 2rem;
+  text-align: center;
   color: $white;
 }
 
-.modal {
-  --bs-modal-margin: 1.75rem;
-  --bs-modal-box-shadow: 0 0.5rem 1rem hsla(240, 7%, 62%, 1);
+.carousel-control-prev-icon {
+  background-image: url("/assets/icons/arrows/arrow-left.svg");
+}
+.carousel-control-next-icon {
+  background-image: url("/assets/icons/arrows/arrow-right.svg");
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  height: 3.5rem;
+  width: 1.5rem;
+  color: #000000 !important;
+  border-radius: 50%;
+  transition: background-color 0.2s, color 0.2s, box-shadow 0.2s;
 }
