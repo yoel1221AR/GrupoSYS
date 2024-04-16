@@ -24,7 +24,6 @@
       [numScroll]="1"
       [responsiveOptions]="responsiveOptions"
       [showIndicators]="false"
-      [circular]="true"
     >
       <ng-template let-image let-i="index" pTemplate="item">
         <a
@@ -34,7 +33,7 @@
           data-bs-target="#carouselConstruction"
         >
           <img
-            class="px-3"
+            class="px-lg-3 px-sm-0"
             [src]="image.image"
             style="
               width: 100%;
@@ -68,7 +67,7 @@
             <div
               id="carouselSectionConstruction"
               class="carousel slide carousel-fade"
-              data-bs-ride="carousel"
+              data-bs-ride="false"
             >
               <div class="carousel-inner">
                 <div

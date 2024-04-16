@@ -4,7 +4,7 @@
     <div class="break"></div>
   </div>
 </div>
-<div class="container py-4">
+<!-- <div class="container py-4">
   <p-carousel
     [value]="clients"
     [numVisible]="3"
@@ -25,6 +25,28 @@
         [src]="item.image"
         alt="hola"
       />
+    </ng-template>
+  </p-carousel>
+</div>
+ -->
+<div class="container py-4">
+  <p-carousel
+    [value]="clients"
+    [numVisible]="3"
+    [numScroll]="1"
+    [showIndicators]="false"
+    [responsiveOptions]="responsiveOptions"
+    [autoplayInterval]="5000"
+    [circular]="true"
+  >
+    <ng-template let-item pTemplate="item">
+      <div class="gs-brands__card">
+        <img
+          class="gs-brands__card-wrapper-image"
+          [src]="item.image"
+          alt="hola"
+        />
+      </div>
     </ng-template>
   </p-carousel>
 </div>
