@@ -35,7 +35,7 @@ export class ViewsComponent {
     const scrollPosition =
       window.pageYOffset || document.documentElement.scrollTop || 0;
     const sections: HTMLElement[] = Array.from(
-      this.el.nativeElement.querySelectorAll('section')
+      this.el.nativeElement.querySelectorAll('.section')
     );
     let currentSection = 'home';
     sections.forEach((section: HTMLElement) => {
@@ -45,12 +45,17 @@ export class ViewsComponent {
         currentSection = section.id;
       }
     });
-    this.activeLink = currentSection;
+    // Only update activeLink if the current section is different
+    if (this.activeLink !== currentSection) {
+      this.activeLink = currentSection;
+    }
     this.isSticky = scrollPosition > 100;
   }
-
   activateLink(link: string): void {
-    this.activeLink = link;
+    // Deactivate "Home" link if it's not the selected link
+    if (this.activeLink !== link) {
+      this.activeLink = link;
+    }
   }
   abrirClienteCorreo(): void {
     const correoDestino = 'info@gruposysconstrucciones.com.ar';
