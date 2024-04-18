@@ -53,7 +53,7 @@ export class ViewsComponent {
     this.activeLink = link;
   }
   abrirClienteCorreo(): void {
-    const correoDestino = 'info@stoccohnos.com.ar';
+    const correoDestino = 'info@gruposysconstrucciones.com.ar';
     const url = `https://mail.google.com/mail/u/0/?view=cm&fs=1&to=${correoDestino}`;
     window.open(url, '_blank');
   }

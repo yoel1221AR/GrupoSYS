@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 })
 export class NavbarComponent {
   abrirClienteCorreo(): void {
-    const correoDestino = 'info@stoccohnos.com.ar';
+    const correoDestino = 'info@gruposysconstrucciones.com.ar';
     const url = `https://mail.google.com/mail/u/0/?view=cm&fs=1&to=${correoDestino}`;
     window.open(url, '_blank');
   }
